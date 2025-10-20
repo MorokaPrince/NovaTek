@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://novatekconsulting.com/sitemap.xml
+
+# Disallow common sensitive paths
+Disallow: /api/
+Disallow: /admin/
+Disallow: /_next/
+Disallow: /node_modules/

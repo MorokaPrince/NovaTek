@@ -1,0 +1,80 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+
+    // Additional strict settings for better development experience
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "exactOptionalPropertyTypes": true,
+
+    // Performance optimizations
+    "forceConsistentCasingInFileNames": true,
+
+    // Plugin configuration
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+
+    // Path mapping
+    "paths": {
+      "@/*": ["./src/*"],
+      "@/components/*": ["./src/components/*"],
+      "@/lib/*": ["./src/lib/*"],
+      "@/styles/*": ["./src/styles/*"],
+      "@/types/*": ["./src/types/*"]
+    },
+
+    // Additional type checking
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitOverride": true,
+    "noPropertyAccessFromIndexSignature": false,
+    "noUncheckedIndexedAccess": false,
+
+    // Declaration file generation (disabled for Next.js)
+    "declaration": false,
+    "declarationMap": false,
+
+    // Source maps for debugging
+    "sourceMap": true,
+
+    // Remove unused imports automatically (for development)
+    "verbatimModuleSyntax": false
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    ".next",
+    "dist",
+    "build",
+    "coverage",
+    "**/*.spec.ts",
+    "**/*.test.ts"
+  ],
+  "ts-node": {
+    "esm": true,
+    "compilerOptions": {
+      "module": "ESNext",
+      "target": "ES2022"
+    }
+  }
+}
