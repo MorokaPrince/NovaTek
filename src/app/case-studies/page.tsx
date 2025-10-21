@@ -40,7 +40,7 @@ const CaseStudiesPage: React.FC = () => {
             </h1>
 
             <p className="text-xl md:text-2xl text-gray-300 mb-12 leading-relaxed max-w-3xl mx-auto animate-fade-in-up">
-              Discover how we've helped businesses across various industries achieve their <span className="font-medium text-green-400">digital transformation goals</span>
+              Discover how we&apos;ve helped businesses across various industries achieve their <span className="font-medium text-green-400">digital transformation goals</span>
               and drive <span className="font-medium text-blue-400">sustainable growth</span> through innovative technology solutions.
             </p>
           </div>

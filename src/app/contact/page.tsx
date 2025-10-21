@@ -22,7 +22,7 @@ const ContactPage: React.FC = () => {
             </div>
 
             <h1 className="text-5xl md:text-6xl lg:text-7xl font-light text-gray-900 mb-8 leading-tight animate-fade-in-up">
-              Let's start
+              Let&apos;s start
               <br />
               <span className="font-medium relative">
                 building
@@ -305,7 +305,7 @@ const ContactPage: React.FC = () => {
               </h3>
               <p className="text-gray-300 leading-relaxed">
                 We work with clients across various industries including healthcare, finance, retail,
-                manufacturing, and technology. Our solutions are tailored to each industry's specific needs and challenges.
+                manufacturing, and technology. Our solutions are tailored to each industry&apos;s specific needs and challenges.
               </p>
             </div>
 

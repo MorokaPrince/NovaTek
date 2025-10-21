@@ -287,7 +287,7 @@ const ServicesPage: React.FC = () => {
             Ready to Get Started?
           </h2>
           <p className="text-xl text-gray-300 mb-12 animate-fade-in-up">
-            Let's discuss your project requirements and how we can help you achieve your technology goals.
+            Let&apos;s discuss your project requirements and how we can help you achieve your technology goals.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in-up">
             <button className="group bg-white text-gray-900 px-8 py-4 text-lg font-medium hover:bg-gray-100 transition-all duration-300 hover-lift">

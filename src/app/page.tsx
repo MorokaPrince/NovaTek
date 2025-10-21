@@ -232,7 +232,7 @@ const HomePage: React.FC = () => {
                   <span className="text-gray-400 ml-2">{/* Your success is our code */}</span>
                 </div>
                 <div className="animate-pulse text-blue-400">function transformBusiness() {"{"}</div>
-                <div className="ml-4 animate-fade-in text-gray-300" style={{animationDelay: '0.5s'}}>return "innovative_solutions";</div>
+                <div className="ml-4 animate-fade-in text-gray-300" style={{animationDelay: '0.5s'}}>return &quot;innovative_solutions&quot;;</div>
                 <div className="animate-fade-in text-blue-400" style={{animationDelay: '0.7s'}}>{"}"}</div>
               </div>
 
@@ -414,7 +414,7 @@ const HomePage: React.FC = () => {
             Ready to Transform Your Business?
           </h2>
           <p className="text-xl text-gray-300 mb-12 animate-fade-in-up leading-relaxed">
-            Let's discuss how we can help you achieve your technology goals and drive sustainable growth.
+            Let&apos;s discuss how we can help you achieve your technology goals and drive sustainable growth.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in-up">
             <button className="group relative bg-white text-gray-900 px-10 py-5 text-lg font-medium hover:bg-gray-100 transition-all duration-500 hover-lift rounded-xl shadow-2xl overflow-hidden">
