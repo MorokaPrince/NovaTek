@@ -132,11 +132,10 @@ const HomePage: React.FC = () => {
       {/* Company Intro Section */}
       <section className="bg-slate-50 py-16 relative overflow-hidden">
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-            <div className="animate-slide-in-left">
-              <h2 className="text-3xl md:text-4xl font-light text-slate-900 mb-4 animate-fade-in-up">
-                About NovaTek
-              </h2>
+          <div className="animate-slide-in-left">
+            <h2 className="text-3xl md:text-4xl font-light text-slate-900 mb-4 animate-fade-in-up">
+              About NovaTek
+            </h2>
               <p className="text-lg text-slate-600 max-w-2xl mx-auto animate-fade-in-up animate-delay-200">
                 Founded in 2024, we've successfully delivered 9 projects for our clients, driving innovation and growth.
               </p>
@@ -206,9 +205,7 @@ const HomePage: React.FC = () => {
               </div>
             </div>
 
-            <div className="bg-white p-8 rounded-2xl shadow-lg border border-gray-100 hover-lift animate-slide-in-right">
 
-              {/* Visual Element - Code Block Representation */}
               <div className="bg-gray-900 rounded-lg p-4 mb-6 font-mono text-sm text-green-400 overflow-hidden">
                 <div className="text-gray-500 mb-2 flex items-center">
                   <span className="w-3 h-3 bg-red-500 rounded-full mr-2"></span>
@@ -221,14 +218,6 @@ const HomePage: React.FC = () => {
                 <div className="animate-fade-in text-blue-400" style={{animationDelay: '0.7s'}}>{"}"}</div>
               </div>
 
-              <button className="group bg-gray-900 text-white px-6 py-4 rounded-lg font-medium hover:bg-gray-800 transition-all duration-300 hover-lift">
-                <span className="flex items-center">
-                  Learn More About Us
-                  <svg className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                  </svg>
-                </span>
-              </button>
             </div>
           </div>
         </div>
