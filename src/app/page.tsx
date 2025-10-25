@@ -1,47 +1,65 @@
 import React from 'react';
 
 const HomePage: React.FC = () => {
+  // Team members data
+  const teamMembers = [
+    { name: 'May Rakgama', location: 'Cape Town', initials: 'MR' },
+    { name: 'Mentor Olifant', location: 'North West', initials: 'MO' },
+    { name: 'Bogosi Ramokoka', location: 'Johannesburg', initials: 'BR' },
+    { name: 'Mpho Hamesi', location: 'Pretoria', initials: 'MH' },
+    { name: 'Olwethu Ndlovu', location: 'Mpumalanga', initials: 'ON' },
+    { name: 'Lawrance Thipe', location: 'Limpopo', initials: 'LT' },
+  ];
+
+  // Services data
+  const services = [
+    { title: 'Web Development', icon: 'code', color: 'from-blue-500 to-indigo-600' },
+    { title: 'Mobile Apps', icon: 'mobile', color: 'from-purple-500 to-pink-600' },
+    { title: 'Cloud Solutions', icon: 'cloud', color: 'from-green-500 to-teal-600' },
+    { title: 'IT Consulting', icon: 'lightbulb', color: 'from-orange-500 to-red-600' },
+  ];
+
   return (
     <div>
-      {/* Wide Hero Banner */}
-      <section className="relative bg-slate-50 py-16 lg:py-24 overflow-hidden">
-        {/* Subtle Background Elements */}
+      {/* 1. HERO BANNER SECTION */}
+      <section className="relative bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 py-20 lg:py-32 overflow-hidden">
+        {/* Gradient Background */}
         <div className="absolute inset-0">
-          <div className="absolute inset-0 bg-gradient-to-br from-slate-100 via-white to-slate-50"></div>
+          <div className="absolute inset-0 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900"></div>
           {/* Muted Floating Elements */}
-          <div className="absolute top-10 left-20 text-slate-400/20 text-sm animate-float">Innovation</div>
-          <div className="absolute top-32 right-32 text-blue-400/20 text-sm animate-pulse">Solutions</div>
-          <div className="absolute bottom-32 left-16 text-gray-400/20 text-sm animate-bounce">Growth</div>
-          <div className="absolute bottom-16 right-20 text-slate-400/20 text-sm animate-float">Success</div>
+          <div className="absolute top-10 left-20 text-slate-400/10 text-sm animate-float">Innovation</div>
+          <div className="absolute top-32 right-32 text-blue-400/10 text-sm animate-pulse">Solutions</div>
+          <div className="absolute bottom-32 left-16 text-gray-400/10 text-sm animate-bounce">Growth</div>
+          <div className="absolute bottom-16 right-20 text-slate-400/10 text-sm animate-float">Success</div>
         </div>
 
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-5xl mx-auto">
             {/* Tagline */}
             <div className="mb-8 animate-fade-in animate-delay-200">
-              <span className="inline-flex items-center px-6 py-3 bg-white/80 backdrop-blur-sm rounded-full text-slate-700 text-sm font-medium tracking-wider uppercase border border-slate-200 shadow-sm">
-                <span className="w-2 h-2 bg-blue-500 rounded-full mr-3 animate-pulse"></span>
+              <span className="inline-flex items-center px-6 py-3 bg-white/10 backdrop-blur-sm rounded-full text-white text-sm font-medium tracking-wider uppercase border border-white/20 shadow-sm">
+                <span className="w-2 h-2 bg-blue-400 rounded-full mr-3 animate-pulse"></span>
                 NovaTek Consulting
               </span>
             </div>
 
             {/* Main Heading */}
-            <h1 className="text-5xl md:text-6xl lg:text-7xl font-light text-slate-900 mb-8 leading-tight animate-fade-in-up">
+            <h1 className="text-5xl md:text-6xl lg:text-7xl font-light text-white mb-8 leading-tight animate-fade-in-up">
               <span className="inline-block animate-fade-in-up animate-delay-300">Crafting Digital</span>
               <br />
-              <span className="font-medium text-blue-600 animate-fade-in-up animate-delay-500">Excellence</span>
+              <span className="font-medium text-blue-400 animate-fade-in-up animate-delay-500">Excellence</span>
               <br />
               <span className="inline-block animate-fade-in-up animate-delay-400">for Modern Businesses</span>
             </h1>
 
             {/* Description */}
-            <p className="text-xl md:text-2xl text-slate-600 mb-10 leading-relaxed max-w-4xl mx-auto animate-fade-in-up animate-delay-700">
+            <p className="text-xl md:text-2xl text-gray-300 mb-10 leading-relaxed max-w-4xl mx-auto animate-fade-in-up animate-delay-700">
               Empowering businesses with innovative technology solutions that drive growth and deliver lasting value.
             </p>
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center animate-fade-in-up animate-delay-800">
-              <button className="group bg-blue-600 text-white px-8 py-4 text-lg font-medium hover:bg-blue-700 transition-all duration-300 rounded-lg shadow-lg hover:shadow-xl">
+              <button className="group bg-blue-600 text-white px-8 py-4 text-lg font-medium hover:bg-blue-700 transition-all duration-300 rounded-lg shadow-lg hover:shadow-xl hover-lift">
                 <span className="flex items-center">
                   Get Started
                   <svg className="w-5 h-5 ml-3 group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -49,10 +67,10 @@ const HomePage: React.FC = () => {
                   </svg>
                 </span>
               </button>
-              <button className="group border-2 border-slate-300 text-slate-700 px-8 py-4 text-lg font-medium hover:bg-slate-100 transition-all duration-300 rounded-lg">
+              <button className="group border-2 border-gray-400 text-white px-8 py-4 text-lg font-medium hover:bg-white/10 transition-all duration-300 rounded-lg hover-lift">
                 <span className="flex items-center">
                   Learn More
-                  <svg className="w-5 h-5 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg className="w-5 h-5 ml-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
                   </svg>
@@ -136,88 +154,86 @@ const HomePage: React.FC = () => {
             <h2 className="text-3xl md:text-4xl font-light text-slate-900 mb-4 animate-fade-in-up">
               About NovaTek
             </h2>
-              <p className="text-lg text-slate-600 max-w-2xl mx-auto animate-fade-in-up animate-delay-200">
-                Founded in 2024, we've successfully delivered 9 projects for our clients, driving innovation and growth.
-              </p>
-              {/* Company Stats */}
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
-                <div className="text-center animate-fade-in-up">
-                  <div className="text-4xl font-bold text-blue-600 mb-2">2024</div>
-                  <div className="text-slate-600">Founded</div>
-                </div>
-                <div className="text-center animate-fade-in-up animate-delay-200">
-                  <div className="text-4xl font-bold text-slate-600 mb-2">9</div>
-                  <div className="text-slate-600">Clients/Projects</div>
-                </div>
-                <div className="text-center animate-fade-in-up animate-delay-400">
-                  <div className="text-4xl font-bold text-slate-600 mb-2">6</div>
-                  <div className="text-slate-600">Team Members</div>
-                </div>
-              </div>
+            <p className="text-lg text-slate-600 max-w-2xl mx-auto animate-fade-in-up animate-delay-200">
+              Founded in 2024, we've successfully delivered 9 projects for our clients, driving innovation and growth.
+            </p>
 
-              {/* Team Members */}
-              <div className="text-center mb-8">
-                <h3 className="text-2xl font-medium text-slate-900 mb-8 animate-fade-in-up">Our Team</h3>
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                  <div className="bg-white rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow duration-300 animate-fade-in-up">
-                    <div className="w-16 h-16 bg-blue-500 rounded-full mx-auto mb-4 flex items-center justify-center">
-                      <span className="text-white font-bold text-xl">MR</span>
-                    </div>
-                    <h4 className="text-lg font-medium text-slate-900 mb-1">May Rakgama</h4>
-                    <p className="text-slate-600">Cape Town</p>
+            {/* Company Stats */}
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
+              <div className="text-center animate-fade-in-up">
+                <div className="text-4xl font-bold text-blue-600 mb-2">2024</div>
+                <div className="text-slate-600">Founded</div>
+              </div>
+              <div className="text-center animate-fade-in-up animate-delay-200">
+                <div className="text-4xl font-bold text-slate-600 mb-2">9</div>
+                <div className="text-slate-600">Clients/Projects</div>
+              </div>
+              <div className="text-center animate-fade-in-up animate-delay-400">
+                <div className="text-4xl font-bold text-slate-600 mb-2">6</div>
+                <div className="text-slate-600">Team Members</div>
+              </div>
+            </div>
+
+            {/* Team Members */}
+            <div className="text-center mb-8">
+              <h3 className="text-2xl font-medium text-slate-900 mb-8 animate-fade-in-up">Our Team</h3>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div className="bg-white rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow duration-300 animate-fade-in-up">
+                  <div className="w-16 h-16 bg-blue-500 rounded-full mx-auto mb-4 flex items-center justify-center">
+                    <span className="text-white font-bold text-xl">MR</span>
                   </div>
-                  <div className="bg-white rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow duration-300 animate-fade-in-up animate-delay-100">
-                    <div className="w-16 h-16 bg-slate-500 rounded-full mx-auto mb-4 flex items-center justify-center">
-                      <span className="text-white font-bold text-xl">MO</span>
-                    </div>
-                    <h4 className="text-lg font-medium text-slate-900 mb-1">Mentor Olifant</h4>
-                    <p className="text-slate-600">North West</p>
+                  <h4 className="text-lg font-medium text-slate-900 mb-1">May Rakgama</h4>
+                  <p className="text-slate-600">Cape Town</p>
+                </div>
+                <div className="bg-white rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow duration-300 animate-fade-in-up animate-delay-100">
+                  <div className="w-16 h-16 bg-slate-500 rounded-full mx-auto mb-4 flex items-center justify-center">
+                    <span className="text-white font-bold text-xl">MO</span>
                   </div>
-                  <div className="bg-white rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow duration-300 animate-fade-in-up animate-delay-200">
-                    <div className="w-16 h-16 bg-gray-500 rounded-full mx-auto mb-4 flex items-center justify-center">
-                      <span className="text-white font-bold text-xl">BR</span>
-                    </div>
-                    <h4 className="text-lg font-medium text-slate-900 mb-1">Bogosi Ramokoka</h4>
-                    <p className="text-slate-600">Johannesburg</p>
+                  <h4 className="text-lg font-medium text-slate-900 mb-1">Mentor Olifant</h4>
+                  <p className="text-slate-600">North West</p>
+                </div>
+                <div className="bg-white rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow duration-300 animate-fade-in-up animate-delay-200">
+                  <div className="w-16 h-16 bg-gray-500 rounded-full mx-auto mb-4 flex items-center justify-center">
+                    <span className="text-white font-bold text-xl">BR</span>
                   </div>
-                  <div className="bg-white rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow duration-300 animate-fade-in-up animate-delay-300">
-                    <div className="w-16 h-16 bg-blue-400 rounded-lg mx-auto mb-4 flex items-center justify-center">
-                      <span className="text-white font-bold text-xl">MH</span>
-                    </div>
-                    <h4 className="text-lg font-medium text-slate-900 mb-1">Mpho Hamesi</h4>
-                    <p className="text-slate-600">Pretoria</p>
+                  <h4 className="text-lg font-medium text-slate-900 mb-1">Bogosi Ramokoka</h4>
+                  <p className="text-slate-600">Johannesburg</p>
+                </div>
+                <div className="bg-white rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow duration-300 animate-fade-in-up animate-delay-300">
+                  <div className="w-16 h-16 bg-blue-400 rounded-lg mx-auto mb-4 flex items-center justify-center">
+                    <span className="text-white font-bold text-xl">MH</span>
                   </div>
-                  <div className="bg-white rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow duration-300 animate-fade-in-up animate-delay-400">
-                    <div className="w-16 h-16 bg-slate-600 rounded-full mx-auto mb-4 flex items-center justify-center">
-                      <span className="text-white font-bold text-xl">ON</span>
-                    </div>
-                    <h4 className="text-lg font-medium text-slate-900 mb-1">Olwethu Ndlovu</h4>
-                    <p className="text-slate-600">Mpumalanga</p>
+                  <h4 className="text-lg font-medium text-slate-900 mb-1">Mpho Hamesi</h4>
+                  <p className="text-slate-600">Pretoria</p>
+                </div>
+                <div className="bg-white rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow duration-300 animate-fade-in-up animate-delay-400">
+                  <div className="w-16 h-16 bg-slate-600 rounded-full mx-auto mb-4 flex items-center justify-center">
+                    <span className="text-white font-bold text-xl">ON</span>
                   </div>
-                  <div className="bg-white rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow duration-300 animate-fade-in-up animate-delay-500">
-                    <div className="w-16 h-16 bg-gray-600 rounded-full mx-auto mb-4 flex items-center justify-center">
-                      <span className="text-white font-bold text-xl">LT</span>
-                    </div>
-                    <h4 className="text-lg font-medium text-slate-900 mb-1">Lawrance Thipe</h4>
-                    <p className="text-slate-600">Limpopo</p>
+                  <h4 className="text-lg font-medium text-slate-900 mb-1">Olwethu Ndlovu</h4>
+                  <p className="text-slate-600">Mpumalanga</p>
+                </div>
+                <div className="bg-white rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow duration-300 animate-fade-in-up animate-delay-500">
+                  <div className="w-16 h-16 bg-gray-600 rounded-full mx-auto mb-4 flex items-center justify-center">
+                    <span className="text-white font-bold text-xl">LT</span>
                   </div>
+                  <h4 className="text-lg font-medium text-slate-900 mb-1">Lawrance Thipe</h4>
+                  <p className="text-slate-600">Limpopo</p>
                 </div>
               </div>
             </div>
 
-
-              <div className="bg-gray-900 rounded-lg p-4 mb-6 font-mono text-sm text-green-400 overflow-hidden">
-                <div className="text-gray-500 mb-2 flex items-center">
-                  <span className="w-3 h-3 bg-red-500 rounded-full mr-2"></span>
-                  <span className="w-3 h-3 bg-yellow-500 rounded-full mr-2"></span>
-                  <span className="w-3 h-3 bg-green-500 rounded-full mr-2"></span>
-                  <span className="text-gray-400 ml-2">{/* Your success is our code */}</span>
-                </div>
-                <div className="animate-pulse text-blue-400">function transformBusiness() {"{"}</div>
-                <div className="ml-4 animate-fade-in text-gray-300" style={{animationDelay: '0.5s'}}>return &quot;innovative_solutions&quot;;</div>
-                <div className="animate-fade-in text-blue-400" style={{animationDelay: '0.7s'}}>{"}"}</div>
+            {/* Code Showcase */}
+            <div className="bg-gray-900 rounded-lg p-4 mb-6 font-mono text-sm text-green-400 overflow-hidden">
+              <div className="text-gray-500 mb-2 flex items-center">
+                <span className="w-3 h-3 bg-red-500 rounded-full mr-2"></span>
+                <span className="w-3 h-3 bg-yellow-500 rounded-full mr-2"></span>
+                <span className="w-3 h-3 bg-green-500 rounded-full mr-2"></span>
+                <span className="text-gray-400 ml-2">Your success is our code</span>
               </div>
-
+              <div className="animate-pulse text-blue-400">function transformBusiness() {"{"}</div>
+              <div className="ml-4 animate-fade-in text-gray-300" style={{animationDelay: '0.5s'}}>return &quot;innovative_solutions&quot;;</div>
+              <div className="animate-fade-in text-blue-400" style={{animationDelay: '0.7s'}}>{"}"}</div>
             </div>
           </div>
         </div>
