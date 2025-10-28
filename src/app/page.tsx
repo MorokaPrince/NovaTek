@@ -1,23 +1,6 @@
 import React from 'react';
 
 const HomePage: React.FC = () => {
-  // Team members data
-  const teamMembers = [
-    { name: 'May Rakgama', location: 'Cape Town', initials: 'MR' },
-    { name: 'Mentor Olifant', location: 'North West', initials: 'MO' },
-    { name: 'Bogosi Ramokoka', location: 'Johannesburg', initials: 'BR' },
-    { name: 'Mpho Hamesi', location: 'Pretoria', initials: 'MH' },
-    { name: 'Olwethu Ndlovu', location: 'Mpumalanga', initials: 'ON' },
-    { name: 'Lawrence Thipe', location: 'Luckau', initials: 'LT' },
-  ];
-
-  // Services data
-  const services = [
-    { title: 'Web Development', icon: 'code', color: 'from-blue-500 to-indigo-600' },
-    { title: 'Mobile Apps', icon: 'mobile', color: 'from-purple-500 to-pink-600' },
-    { title: 'Cloud Solutions', icon: 'cloud', color: 'from-green-500 to-teal-600' },
-    { title: 'IT Consulting', icon: 'lightbulb', color: 'from-orange-500 to-red-600' },
-  ];
 
   return (
     <div>
