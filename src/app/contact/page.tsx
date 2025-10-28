@@ -365,7 +365,7 @@ const ContactPage: React.FC = () => {
               </p>
             </div>
 
-            <div className="bg-gray-800/30 backdrop-blur-sm border border-gray-700/50 rounded-xl p-6 hover:bg-gray-700/50 transition-all duration-300 animate-fade-in-up" style={{animationDelay: '0.4s'}}>
+            <div className="bg-gradient-to-br from-gray-800/30 to-gray-700/30 backdrop-blur-sm border border-gray-700/50 rounded-xl p-6 hover:bg-gradient-to-br hover:from-gray-700/50 hover:to-gray-600/50 hover:shadow-xl hover:shadow-green-500/20 hover:-translate-y-1 transition-all duration-300 animate-fade-in-up" style={{animationDelay: '0.4s'}}>
               <h3 className="text-xl font-medium text-white mb-4 flex items-center">
                 <span className="w-2 h-2 bg-green-500 rounded-full mr-3 animate-pulse"></span>
                 Do you provide ongoing support after project completion?
