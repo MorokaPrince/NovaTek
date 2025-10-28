@@ -8,7 +8,7 @@ const HomePage: React.FC = () => {
     { name: 'Bogosi Ramokoka', location: 'Johannesburg', initials: 'BR' },
     { name: 'Mpho Hamesi', location: 'Pretoria', initials: 'MH' },
     { name: 'Olwethu Ndlovu', location: 'Mpumalanga', initials: 'ON' },
-    { name: 'Lawrance Thipe', location: 'Limpopo', initials: 'LT' },
+    { name: 'Lawrence Thipe', location: 'Luckau', initials: 'LT' },
   ];
 
   // Services data
