@@ -4,7 +4,7 @@ const CaseStudiesPage: React.FC = () => {
   return (
     <div className="bg-gray-50">
       {/* Hero Section */}
-      <section className="relative bg-gray-900 py-20 lg:py-32 overflow-hidden">
+      <section className="relative bg-gray-900 py-12 lg:py-20 overflow-hidden">
         {/* Dark Coding Background */}
         <div className="absolute inset-0">
           <div className="absolute inset-0 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900"></div>
@@ -26,7 +26,7 @@ const CaseStudiesPage: React.FC = () => {
               </span>
             </div>
 
-            <h1 className="text-5xl md:text-6xl lg:text-7xl font-light text-white mb-8 leading-tight animate-fade-in-up">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-light text-white mb-8 leading-tight animate-fade-in-up">
               Success
               <br />
               <span className="font-medium relative text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-400">
@@ -39,7 +39,7 @@ const CaseStudiesPage: React.FC = () => {
               <span className="font-medium text-purple-400">clients</span>.
             </h1>
 
-            <p className="text-xl md:text-2xl text-gray-300 mb-12 leading-relaxed max-w-3xl mx-auto animate-fade-in-up">
+            <p className="text-lg md:text-xl text-gray-300 mb-12 leading-relaxed max-w-3xl mx-auto animate-fade-in-up">
               Discover how we&apos;ve helped businesses across various industries achieve their <span className="font-medium text-green-400">digital transformation goals</span>
               and drive <span className="font-medium text-blue-400">sustainable growth</span> through innovative technology solutions.
             </p>
@@ -48,7 +48,7 @@ const CaseStudiesPage: React.FC = () => {
       </section>
 
       {/* Case Studies Grid */}
-      <section className="relative py-20 overflow-hidden bg-gray-900">
+      <section className="relative py-12 overflow-hidden bg-gray-900">
         {/* Enhanced Dark Coding Background */}
         <div className="absolute inset-0">
           <div className="absolute inset-0 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900"></div>
@@ -65,15 +65,15 @@ const CaseStudiesPage: React.FC = () => {
         </div>
 
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
             {/* Case Study 1 */}
-            <div className="group relative bg-gray-800/50 backdrop-blur-sm rounded-2xl p-8 border border-gray-700/50 hover:bg-gray-700/60 hover:border-gray-600/70 transition-all duration-500 hover-lift animate-slide-in-left overflow-hidden">
+            <div className="group relative bg-gray-800/50 backdrop-blur-sm rounded-2xl p-6 border border-gray-700/50 hover:bg-gray-700/60 hover:border-gray-600/70 transition-all duration-500 hover-lift animate-slide-in-left overflow-hidden">
               <div className="absolute inset-0 bg-gradient-to-br from-blue-500/10 to-purple-500/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-              <div className="mb-8 relative overflow-hidden rounded-xl">
-                <div className="w-full h-64 bg-gradient-to-br from-blue-900/20 to-purple-900/20 rounded-xl mb-6 flex items-center justify-center border border-gray-700/50">
+              <div className="mb-6 relative overflow-hidden rounded-xl">
+                <div className="w-full h-48 bg-gradient-to-br from-blue-900/20 to-purple-900/20 rounded-xl mb-4 flex items-center justify-center border border-gray-700/50">
                   <div className="text-center">
-                    <div className="w-16 h-16 bg-gradient-to-br from-blue-500 to-purple-600 rounded-full mx-auto mb-4 flex items-center justify-center animate-bounce shadow-2xl shadow-blue-500/25">
-                      <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-purple-600 rounded-full mx-auto mb-4 flex items-center justify-center animate-bounce shadow-2xl shadow-blue-500/25">
+                      <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
                       </svg>
                     </div>
@@ -90,13 +90,13 @@ const CaseStudiesPage: React.FC = () => {
                   <span className="text-gray-400 text-sm animate-pulse">2024</span>
                 </div>
 
-                <h3 className="text-2xl md:text-3xl font-light text-white group-hover:text-blue-300 transition-colors duration-300">
+                <h3 className="text-xl md:text-2xl font-light text-white group-hover:text-blue-300 transition-colors duration-300">
                   E-commerce Platform
                   <br />
                   <span className="font-medium text-blue-400">Modernization</span>
                 </h3>
 
-                <p className="text-gray-300 leading-relaxed group-hover:text-gray-200 transition-colors duration-300">
+                <p className="text-gray-300 text-sm leading-relaxed group-hover:text-gray-200 transition-colors duration-300">
                   Helped a leading retail company modernize their legacy e-commerce platform, resulting in
                   150% increase in online sales and improved customer experience through microservices architecture.
                 </p>
@@ -118,13 +118,13 @@ const CaseStudiesPage: React.FC = () => {
             </div>
 
             {/* Case Study 2 */}
-            <div className="group relative bg-gray-800/50 backdrop-blur-sm rounded-2xl p-8 border border-gray-700/50 hover:bg-gray-700/60 hover:border-gray-600/70 transition-all duration-500 hover-lift animate-slide-in-right overflow-hidden">
+            <div className="group relative bg-gray-800/50 backdrop-blur-sm rounded-2xl p-6 border border-gray-700/50 hover:bg-gray-700/60 hover:border-gray-600/70 transition-all duration-500 hover-lift animate-slide-in-right overflow-hidden">
               <div className="absolute inset-0 bg-gradient-to-br from-green-500/10 to-teal-500/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-              <div className="mb-8 relative overflow-hidden rounded-xl">
-                <div className="w-full h-64 bg-gradient-to-br from-green-900/20 to-teal-900/20 rounded-xl mb-6 flex items-center justify-center border border-gray-700/50">
+              <div className="mb-6 relative overflow-hidden rounded-xl">
+                <div className="w-full h-48 bg-gradient-to-br from-green-900/20 to-teal-900/20 rounded-xl mb-4 flex items-center justify-center border border-gray-700/50">
                   <div className="text-center">
-                    <div className="w-16 h-16 bg-gradient-to-br from-green-500 to-teal-600 rounded-full mx-auto mb-4 flex items-center justify-center animate-float shadow-2xl shadow-green-500/25">
-                      <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <div className="w-12 h-12 bg-gradient-to-br from-green-500 to-teal-600 rounded-full mx-auto mb-4 flex items-center justify-center animate-float shadow-2xl shadow-green-500/25">
+                      <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M9 19l3 3m0 0l3-3m-3 3V10" />
                       </svg>
                     </div>
@@ -141,13 +141,13 @@ const CaseStudiesPage: React.FC = () => {
                   <span className="text-gray-400 text-sm animate-pulse">2024</span>
                 </div>
 
-                <h3 className="text-2xl md:text-3xl font-light text-white group-hover:text-green-300 transition-colors duration-300">
+                <h3 className="text-xl md:text-2xl font-light text-white group-hover:text-green-300 transition-colors duration-300">
                   Financial Services
                   <br />
                   <span className="font-medium text-green-400">Cloud Migration</span>
                 </h3>
 
-                <p className="text-gray-300 leading-relaxed group-hover:text-gray-200 transition-colors duration-300">
+                <p className="text-gray-300 text-sm leading-relaxed group-hover:text-gray-200 transition-colors duration-300">
                   Successfully migrated a traditional financial institution to a modern cloud infrastructure,
                   reducing operational costs by 40% while improving system reliability and scalability.
                 </p>
@@ -169,13 +169,13 @@ const CaseStudiesPage: React.FC = () => {
             </div>
 
             {/* Case Study 3 */}
-            <div className="group relative bg-gray-800/50 backdrop-blur-sm rounded-2xl p-8 border border-gray-700/50 hover:bg-gray-700/60 hover:border-gray-600/70 transition-all duration-500 hover-lift animate-fade-in-up overflow-hidden">
+            <div className="group relative bg-gray-800/50 backdrop-blur-sm rounded-2xl p-6 border border-gray-700/50 hover:bg-gray-700/60 hover:border-gray-600/70 transition-all duration-500 hover-lift animate-fade-in-up overflow-hidden">
               <div className="absolute inset-0 bg-gradient-to-br from-purple-500/10 to-pink-500/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-              <div className="mb-8 relative overflow-hidden rounded-xl">
-                <div className="w-full h-64 bg-gradient-to-br from-purple-900/20 to-pink-900/20 rounded-xl mb-6 flex items-center justify-center border border-gray-700/50">
+              <div className="mb-6 relative overflow-hidden rounded-xl">
+                <div className="w-full h-48 bg-gradient-to-br from-purple-900/20 to-pink-900/20 rounded-xl mb-4 flex items-center justify-center border border-gray-700/50">
                   <div className="text-center">
-                    <div className="w-16 h-16 bg-gradient-to-br from-purple-500 to-pink-600 rounded-full mx-auto mb-4 flex items-center justify-center animate-pulse shadow-2xl shadow-purple-500/25">
-                      <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <div className="w-12 h-12 bg-gradient-to-br from-purple-500 to-pink-600 rounded-full mx-auto mb-4 flex items-center justify-center animate-pulse shadow-2xl shadow-purple-500/25">
+                      <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
                       </svg>
                     </div>
@@ -192,13 +192,13 @@ const CaseStudiesPage: React.FC = () => {
                   <span className="text-gray-400 text-sm animate-pulse">2023</span>
                 </div>
 
-                <h3 className="text-2xl md:text-3xl font-light text-white group-hover:text-purple-300 transition-colors duration-300">
+                <h3 className="text-xl md:text-2xl font-light text-white group-hover:text-purple-300 transition-colors duration-300">
                   Healthcare App
                   <br />
                   <span className="font-medium text-purple-400">Development</span>
                 </h3>
 
-                <p className="text-gray-300 leading-relaxed group-hover:text-gray-200 transition-colors duration-300">
+                <p className="text-gray-300 text-sm leading-relaxed group-hover:text-gray-200 transition-colors duration-300">
                   Developed a comprehensive mobile application for a healthcare provider that improved
                   patient engagement by 200% and streamlined appointment scheduling and medical records access.
                 </p>
@@ -220,13 +220,13 @@ const CaseStudiesPage: React.FC = () => {
             </div>
 
             {/* Case Study 4 */}
-            <div className="group relative bg-gray-800/50 backdrop-blur-sm rounded-2xl p-8 border border-gray-700/50 hover:bg-gray-700/60 hover:border-gray-600/70 transition-all duration-500 hover-lift animate-fade-in-up overflow-hidden">
+            <div className="group relative bg-gray-800/50 backdrop-blur-sm rounded-2xl p-6 border border-gray-700/50 hover:bg-gray-700/60 hover:border-gray-600/70 transition-all duration-500 hover-lift animate-fade-in-up overflow-hidden">
               <div className="absolute inset-0 bg-gradient-to-br from-orange-500/10 to-red-500/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-              <div className="mb-8 relative overflow-hidden rounded-xl">
-                <div className="w-full h-64 bg-gradient-to-br from-orange-900/20 to-red-900/20 rounded-xl mb-6 flex items-center justify-center border border-gray-700/50">
+              <div className="mb-6 relative overflow-hidden rounded-xl">
+                <div className="w-full h-48 bg-gradient-to-br from-orange-900/20 to-red-900/20 rounded-xl mb-4 flex items-center justify-center border border-gray-700/50">
                   <div className="text-center">
-                    <div className="w-16 h-16 bg-gradient-to-br from-orange-500 to-red-600 rounded-full mx-auto mb-4 flex items-center justify-center animate-bounce shadow-2xl shadow-orange-500/25">
-                      <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <div className="w-12 h-12 bg-gradient-to-br from-orange-500 to-red-600 rounded-full mx-auto mb-4 flex items-center justify-center animate-bounce shadow-2xl shadow-orange-500/25">
+                      <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
                       </svg>
                     </div>
@@ -243,13 +243,13 @@ const CaseStudiesPage: React.FC = () => {
                   <span className="text-gray-400 text-sm animate-pulse">2023</span>
                 </div>
 
-                <h3 className="text-2xl md:text-3xl font-light text-white group-hover:text-orange-300 transition-colors duration-300">
+                <h3 className="text-xl md:text-2xl font-light text-white group-hover:text-orange-300 transition-colors duration-300">
                   Manufacturing
                   <br />
                   <span className="font-medium text-orange-400">Analytics Platform</span>
                 </h3>
 
-                <p className="text-gray-300 leading-relaxed group-hover:text-gray-200 transition-colors duration-300">
+                <p className="text-gray-300 text-sm leading-relaxed group-hover:text-gray-200 transition-colors duration-300">
                   Implemented a comprehensive data analytics platform for a manufacturing company that
                   optimized production processes and reduced waste by 30% through predictive maintenance.
                 </p>
@@ -274,7 +274,7 @@ const CaseStudiesPage: React.FC = () => {
       </section>
 
       {/* Stats Section */}
-      <section className="bg-gray-900 text-white py-20">
+      <section className="bg-gray-900 text-white py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-light mb-6">
@@ -307,7 +307,7 @@ const CaseStudiesPage: React.FC = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="bg-white py-20">
+      <section className="bg-white py-12">
         <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
           <h2 className="text-4xl md:text-5xl font-light mb-6 text-gray-900">
             Ready to Create Your Success Story?
