@@ -177,7 +177,7 @@ const HomePage: React.FC = () => {
             {/* Team Members */}
             <div className="text-center mb-8">
               <h3 className="text-2xl font-bold text-slate-900 mb-8 animate-fade-in-up">Our Team</h3>
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <div className="bg-white rounded-xl p-6 shadow-sm hover:shadow-lg transition-all duration-300 hover:-translate-y-1 animate-fade-in-up">
                   <div className="w-16 h-16 bg-blue-500 rounded-full mx-auto mb-4 flex items-center justify-center">
                     <span className="text-white font-bold text-xl">MR</span>
@@ -262,7 +262,7 @@ const HomePage: React.FC = () => {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
             {/* Real Code Editor Visualization */}
             <div className="group relative bg-gray-900 rounded-2xl p-6 text-center hover-lift animate-slide-in-left overflow-hidden">
               <div className="absolute inset-0 bg-gradient-to-br from-blue-900/20 to-purple-900/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
