@@ -79,7 +79,7 @@ const ServicesPage: React.FC = () => {
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             {/* Technology Consulting */}
-            <div className="group relative bg-gray-800/50 backdrop-blur-sm p-6 lg:p-8 rounded-2xl border border-gray-700/50 hover:bg-gray-700/60 hover:border-gray-600/70 transition-all duration-500 hover-lift animate-slide-in-left overflow-hidden">
+            <div className="group relative bg-gradient-to-br from-gray-800/50 to-gray-700/50 backdrop-blur-sm p-6 lg:p-8 rounded-2xl border border-gray-700/50 hover:bg-gradient-to-br hover:from-gray-700/60 hover:to-gray-600/60 hover:border-gray-600/70 transition-all duration-500 hover:shadow-xl hover:shadow-blue-500/20 hover:-translate-y-2 animate-slide-in-left overflow-hidden">
               <div className="absolute inset-0 bg-gradient-to-br from-blue-500/10 to-indigo-500/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
               <div className="relative">
                 <div className="w-16 h-16 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-2xl flex items-center justify-center mb-6 transition-all duration-300 group-hover:scale-110 group-hover:rotate-3 shadow-2xl shadow-blue-500/25">
@@ -130,7 +130,7 @@ const ServicesPage: React.FC = () => {
             </div>
 
             {/* Digital Transformation */}
-            <div className="group relative bg-gray-800/50 backdrop-blur-sm p-6 lg:p-8 rounded-2xl border border-gray-700/50 hover:bg-gray-700/60 hover:border-gray-600/70 transition-all duration-500 hover-lift animate-slide-in-right overflow-hidden">
+            <div className="group relative bg-gradient-to-br from-gray-800/50 to-gray-700/50 backdrop-blur-sm p-6 lg:p-8 rounded-2xl border border-gray-700/50 hover:bg-gradient-to-br hover:from-gray-700/60 hover:to-gray-600/60 hover:border-gray-600/70 transition-all duration-500 hover:shadow-xl hover:shadow-purple-500/20 hover:-translate-y-2 animate-slide-in-right overflow-hidden">
               <div className="absolute inset-0 bg-gradient-to-br from-purple-500/10 to-pink-500/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
               <div className="relative">
                 <div className="w-16 h-16 bg-gradient-to-br from-purple-500 to-pink-600 rounded-2xl flex items-center justify-center mb-6 transition-all duration-300 group-hover:scale-110 group-hover:-rotate-3 shadow-2xl shadow-purple-500/25">
@@ -181,7 +181,7 @@ const ServicesPage: React.FC = () => {
             </div>
 
             {/* Project Management */}
-            <div className="group relative bg-gray-800/50 backdrop-blur-sm p-6 lg:p-8 rounded-2xl border border-gray-700/50 hover:bg-gray-700/60 hover:border-gray-600/70 transition-all duration-500 hover-lift animate-fade-in-up overflow-hidden">
+            <div className="group relative bg-gradient-to-br from-gray-800/50 to-gray-700/50 backdrop-blur-sm p-6 lg:p-8 rounded-2xl border border-gray-700/50 hover:bg-gradient-to-br hover:from-gray-700/60 hover:to-gray-600/60 hover:border-gray-600/70 transition-all duration-500 hover:shadow-xl hover:shadow-green-500/20 hover:-translate-y-2 animate-fade-in-up overflow-hidden">
               <div className="absolute inset-0 bg-gradient-to-br from-green-500/10 to-teal-500/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
               <div className="relative">
                 <div className="w-16 h-16 bg-gradient-to-br from-green-500 to-teal-600 rounded-2xl flex items-center justify-center mb-6 transition-all duration-300 group-hover:scale-110 group-hover:rotate-3 shadow-2xl shadow-green-500/25">
@@ -232,7 +232,7 @@ const ServicesPage: React.FC = () => {
             </div>
 
             {/* Custom Development */}
-            <div className="group relative bg-gray-800/50 backdrop-blur-sm p-6 lg:p-8 rounded-2xl border border-gray-700/50 hover:bg-gray-700/60 hover:border-gray-600/70 transition-all duration-500 hover-lift animate-fade-in-up overflow-hidden">
+            <div className="group relative bg-gradient-to-br from-gray-800/50 to-gray-700/50 backdrop-blur-sm p-6 lg:p-8 rounded-2xl border border-gray-700/50 hover:bg-gradient-to-br hover:from-gray-700/60 hover:to-gray-600/60 hover:border-gray-600/70 transition-all duration-500 hover:shadow-xl hover:shadow-orange-500/20 hover:-translate-y-2 animate-fade-in-up overflow-hidden">
               <div className="absolute inset-0 bg-gradient-to-br from-orange-500/10 to-red-500/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
               <div className="relative">
                 <div className="w-16 h-16 bg-gradient-to-br from-orange-500 to-red-600 rounded-2xl flex items-center justify-center mb-6 transition-all duration-300 group-hover:scale-110 group-hover:-rotate-3 shadow-2xl shadow-orange-500/25">

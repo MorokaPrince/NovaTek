@@ -5,9 +5,15 @@ const CaseStudiesPage: React.FC = () => {
     <div className="bg-gray-50">
       {/* Hero Section */}
       <section className="relative bg-gray-900 py-16 overflow-hidden">
-        {/* Dark Coding Background */}
+        {/* Enhanced Dark Coding Background with Geometric Pattern */}
         <div className="absolute inset-0">
           <div className="absolute inset-0 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900"></div>
+          {/* Subtle Geometric Pattern */}
+          <div className="absolute inset-0 opacity-5"
+               style={{
+                 backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.1'%3E%3Ccircle cx='30' cy='30' r='2'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`
+               }}>
+          </div>
 
           {/* Scattered Coding Elements */}
           <div className="absolute top-20 left-20 text-green-400/10 text-sm animate-float">{"const"} caseStudy = {"{"};</div>
@@ -48,10 +54,16 @@ const CaseStudiesPage: React.FC = () => {
       </section>
 
       {/* Case Studies Grid */}
-      <section className="relative py-16 overflow-hidden bg-gray-900">
-        {/* Enhanced Dark Coding Background */}
+      <section className="relative py-16 overflow-hidden bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900">
+        {/* Enhanced Dark Coding Background with Layered Depth */}
         <div className="absolute inset-0">
           <div className="absolute inset-0 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900"></div>
+          {/* Subtle alternating pattern */}
+          <div className="absolute inset-0 opacity-20"
+               style={{
+                 backgroundImage: `url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23000000' fill-opacity='0.02'%3E%3Crect x='10' y='10' width='80' height='80' rx='8'/%3E%3C/g%3E%3C/svg%3E")`
+               }}>
+          </div>
 
           {/* Advanced Scattered Coding Elements */}
           <div className="absolute top-10 left-20 text-green-400/10 text-sm animate-float">{"const"} caseStudy = {"{"};</div>
@@ -67,7 +79,7 @@ const CaseStudiesPage: React.FC = () => {
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
             {/* Case Study 1 */}
-            <div className="group relative bg-gray-800/50 backdrop-blur-sm rounded-2xl p-6 border border-gray-700/50 hover:bg-gray-700/60 hover:border-gray-600/70 transition-all duration-500 hover-lift animate-slide-in-left overflow-hidden">
+            <div className="group relative bg-gradient-to-br from-gray-800/50 to-gray-700/50 backdrop-blur-sm rounded-2xl p-6 border border-gray-700/50 hover:bg-gradient-to-br hover:from-gray-700/60 hover:to-gray-600/60 hover:border-gray-600/70 transition-all duration-500 hover:shadow-xl hover:shadow-blue-500/20 hover:-translate-y-2 animate-slide-in-left overflow-hidden">
               <div className="absolute inset-0 bg-gradient-to-br from-blue-500/10 to-purple-500/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <div className="w-full h-48 bg-gradient-to-br from-blue-900/20 to-purple-900/20 rounded-xl mb-4 flex items-center justify-center border border-gray-700/50">
@@ -118,7 +130,7 @@ const CaseStudiesPage: React.FC = () => {
             </div>
 
             {/* Case Study 2 */}
-            <div className="group relative bg-gray-800/50 backdrop-blur-sm rounded-2xl p-6 border border-gray-700/50 hover:bg-gray-700/60 hover:border-gray-600/70 transition-all duration-500 hover-lift animate-slide-in-right overflow-hidden">
+            <div className="group relative bg-gradient-to-br from-gray-800/50 to-gray-700/50 backdrop-blur-sm rounded-2xl p-6 border border-gray-700/50 hover:bg-gradient-to-br hover:from-gray-700/60 hover:to-gray-600/60 hover:border-gray-600/70 transition-all duration-500 hover:shadow-xl hover:shadow-green-500/20 hover:-translate-y-2 animate-slide-in-right overflow-hidden">
               <div className="absolute inset-0 bg-gradient-to-br from-green-500/10 to-teal-500/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <div className="w-full h-48 bg-gradient-to-br from-green-900/20 to-teal-900/20 rounded-xl mb-4 flex items-center justify-center border border-gray-700/50">
@@ -169,7 +181,7 @@ const CaseStudiesPage: React.FC = () => {
             </div>
 
             {/* Case Study 3 */}
-            <div className="group relative bg-gray-800/50 backdrop-blur-sm rounded-2xl p-6 border border-gray-700/50 hover:bg-gray-700/60 hover:border-gray-600/70 transition-all duration-500 hover-lift animate-fade-in-up overflow-hidden">
+            <div className="group relative bg-gradient-to-br from-gray-800/50 to-gray-700/50 backdrop-blur-sm rounded-2xl p-6 border border-gray-700/50 hover:bg-gradient-to-br hover:from-gray-700/60 hover:to-gray-600/60 hover:border-gray-600/70 transition-all duration-500 hover:shadow-xl hover:shadow-purple-500/20 hover:-translate-y-2 animate-fade-in-up overflow-hidden">
               <div className="absolute inset-0 bg-gradient-to-br from-purple-500/10 to-pink-500/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <div className="w-full h-48 bg-gradient-to-br from-purple-900/20 to-pink-900/20 rounded-xl mb-4 flex items-center justify-center border border-gray-700/50">
@@ -220,7 +232,7 @@ const CaseStudiesPage: React.FC = () => {
             </div>
 
             {/* Case Study 4 */}
-            <div className="group relative bg-gray-800/50 backdrop-blur-sm rounded-2xl p-6 border border-gray-700/50 hover:bg-gray-700/60 hover:border-gray-600/70 transition-all duration-500 hover-lift animate-fade-in-up overflow-hidden">
+            <div className="group relative bg-gradient-to-br from-gray-800/50 to-gray-700/50 backdrop-blur-sm rounded-2xl p-6 border border-gray-700/50 hover:bg-gradient-to-br hover:from-gray-700/60 hover:to-gray-600/60 hover:border-gray-600/70 transition-all duration-500 hover:shadow-xl hover:shadow-orange-500/20 hover:-translate-y-2 animate-fade-in-up overflow-hidden">
               <div className="absolute inset-0 bg-gradient-to-br from-orange-500/10 to-red-500/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
               <div className="mb-6 relative overflow-hidden rounded-xl">
                 <div className="w-full h-48 bg-gradient-to-br from-orange-900/20 to-red-900/20 rounded-xl mb-4 flex items-center justify-center border border-gray-700/50">
@@ -274,8 +286,14 @@ const CaseStudiesPage: React.FC = () => {
       </section>
 
       {/* Stats Section */}
-      <section className="bg-gray-900 text-white py-16">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-white py-16 relative overflow-hidden">
+        {/* Medium depth pattern */}
+        <div className="absolute inset-0 opacity-15"
+             style={{
+               backgroundImage: `url("data:image/svg+xml,%3Csvg width='120' height='120' viewBox='0 0 120 120' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23000000' fill-opacity='0.03'%3E%3Cpath d='M60 60m-50 0a50 50 0 1 1 100 0a50 50 0 1 1 -100 0'/%3E%3C/g%3E%3C/svg%3E")`
+             }}>
+        </div>
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-light mb-6">
               Proven Results
