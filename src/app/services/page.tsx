@@ -106,7 +106,7 @@ const ServicesPage: React.FC = () => {
                   </div>
                 </div>
 
-                <button className="group bg-gradient-to-r from-blue-600 to-indigo-600 text-white px-8 py-4 text-lg font-medium hover:from-blue-700 hover:to-indigo-700 transition-all duration-300 hover-lift rounded-xl shadow-lg shadow-blue-500/25">
+                <button className="group bg-gradient-to-r from-blue-600 to-blue-700 text-white px-8 py-4 text-lg font-medium hover:from-blue-700 hover:to-blue-800 transition-all duration-300 hover-lift rounded-xl shadow-lg shadow-blue-500/25">
                   <span className="flex items-center">
                     Learn More
                     <svg className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -157,7 +157,7 @@ const ServicesPage: React.FC = () => {
                   </div>
                 </div>
 
-                <button className="group bg-gradient-to-r from-purple-600 to-pink-600 text-white px-8 py-4 text-lg font-medium hover:from-purple-700 hover:to-pink-700 transition-all duration-300 hover-lift rounded-xl shadow-lg shadow-purple-500/25">
+                <button className="group bg-gradient-to-r from-blue-600 to-blue-700 text-white px-8 py-4 text-lg font-medium hover:from-blue-700 hover:to-blue-800 transition-all duration-300 hover-lift rounded-xl shadow-lg shadow-blue-500/25">
                   <span className="flex items-center">
                     Learn More
                     <svg className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -208,7 +208,7 @@ const ServicesPage: React.FC = () => {
                   </div>
                 </div>
 
-                <button className="group bg-gradient-to-r from-green-600 to-teal-600 text-white px-8 py-4 text-lg font-medium hover:from-green-700 hover:to-teal-700 transition-all duration-300 hover-lift rounded-xl shadow-lg shadow-green-500/25">
+                <button className="group bg-gradient-to-r from-blue-600 to-blue-700 text-white px-8 py-4 text-lg font-medium hover:from-blue-700 hover:to-blue-800 transition-all duration-300 hover-lift rounded-xl shadow-lg shadow-blue-500/25">
                   <span className="flex items-center">
                     Learn More
                     <svg className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -259,7 +259,7 @@ const ServicesPage: React.FC = () => {
                   </div>
                 </div>
 
-                <button className="group bg-gradient-to-r from-orange-600 to-red-600 text-white px-8 py-4 text-lg font-medium hover:from-orange-700 hover:to-red-700 transition-all duration-300 hover-lift rounded-xl shadow-lg shadow-orange-500/25">
+                <button className="group bg-gradient-to-r from-blue-600 to-blue-700 text-white px-8 py-4 text-lg font-medium hover:from-blue-700 hover:to-blue-800 transition-all duration-300 hover-lift rounded-xl shadow-lg shadow-blue-500/25">
                   <span className="flex items-center">
                     Learn More
                     <svg className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -290,7 +290,7 @@ const ServicesPage: React.FC = () => {
             Let&apos;s discuss your project requirements and how we can help you achieve your technology goals.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in-up">
-            <a href="https://wa.me/27794484159?text=Hello, I'm interested in your services." target="_blank" rel="noopener noreferrer" className="group bg-white text-gray-900 px-8 py-4 text-lg font-medium hover:bg-gray-100 transition-all duration-300 hover-lift">
+            <a href="https://wa.me/27794484159?text=Hello, I'm interested in your services." target="_blank" rel="noopener noreferrer" className="group bg-gradient-to-r from-blue-600 to-blue-700 text-white px-8 py-4 text-lg font-medium hover:from-blue-700 hover:to-blue-800 transition-all duration-300 hover-lift">
               <span className="flex items-center">
                 Start Your Project
                 <svg className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -298,7 +298,7 @@ const ServicesPage: React.FC = () => {
                 </svg>
               </span>
             </a>
-            <button className="group border-2 border-gray-600 text-white px-8 py-4 text-lg font-medium hover:bg-gray-800 hover:border-gray-500 transition-all duration-300 hover-lift">
+            <button className="group border-2 border-gray-400 text-white px-8 py-4 text-lg font-medium hover:bg-gray-400/10 hover:border-gray-300 transition-all duration-300 hover-lift">
               <span className="flex items-center">
                 <svg className="w-5 h-5 mr-2 group-hover:rotate-12 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
