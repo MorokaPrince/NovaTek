@@ -25,7 +25,7 @@ const ContactPage: React.FC = () => {
   return (
     <div className="bg-gray-50">
       {/* Hero Section */}
-      <section className="relative bg-white py-12 lg:py-20 overflow-hidden">
+      <section className="relative bg-gray-900 py-16 overflow-hidden">
         {/* Animated Background Elements */}
         <div className="absolute inset-0">
           <div className="absolute top-20 left-10 w-32 h-32 bg-blue-100 rounded-full opacity-20 animate-float"></div>
@@ -36,18 +36,18 @@ const ContactPage: React.FC = () => {
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-4xl mx-auto">
             <div className="mb-8 animate-fade-in">
-              <span className="inline-flex items-center px-4 py-2 bg-gray-900/5 backdrop-blur-sm rounded-full text-gray-600 text-sm font-medium tracking-wider uppercase border border-gray-200">
-                <span className="w-2 h-2 bg-green-500 rounded-full mr-2 animate-pulse"></span>
+              <span className="inline-flex items-center px-6 py-3 bg-white/10 backdrop-blur-sm rounded-full text-white text-sm font-medium tracking-wider uppercase border border-white/20 shadow-sm">
+                <span className="w-2 h-2 bg-blue-400 rounded-full mr-3 animate-pulse"></span>
                 Get In Touch
               </span>
             </div>
 
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-light text-gray-900 mb-8 leading-tight animate-fade-in-up">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-light text-white mb-8 leading-tight animate-fade-in-up">
               Let&apos;s start
               <br />
-              <span className="font-medium relative">
+              <span className="font-medium relative text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-400">
                 building
-                <div className="absolute -bottom-2 left-0 right-0 h-1 bg-gradient-to-r from-orange-500 to-red-500 rounded-full animate-fade-in-up"></div>
+                <div className="absolute -bottom-3 left-0 right-0 h-1 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full animate-scale-in shadow-lg"></div>
               </span>
               <br />
               something
