@@ -280,17 +280,23 @@ const ContactPage: React.FC = () => {
       </section>
 
       {/* Map Section */}
-      <section className="relative bg-gray-800 h-64 overflow-hidden">
-        {/* Coding Background for Map */}
+      <section className="relative bg-gradient-to-br from-gray-800 via-gray-700 to-gray-800 h-64 overflow-hidden">
+        {/* Enhanced Coding Background for Map with Layered Depth */}
         <div className="absolute inset-0">
           <div className="absolute inset-0 bg-gradient-to-br from-gray-800 via-gray-700 to-gray-800"></div>
+          {/* Medium depth pattern */}
+          <div className="absolute inset-0 opacity-15"
+               style={{
+                 backgroundImage: `url("data:image/svg+xml,%3Csvg width='120' height='120' viewBox='0 0 120 120' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23000000' fill-opacity='0.03'%3E%3Cpath d='M60 60m-50 0a50 50 0 1 1 100 0a50 50 0 1 1 -100 0'/%3E%3C/g%3E%3C/svg%3E")`
+               }}>
+          </div>
 
           {/* Coding Grid Pattern */}
           <div className="absolute inset-0 opacity-10">
             <div className="absolute inset-0"
-                 style={{
-                   backgroundImage: `url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%2300ff00' fill-opacity='0.1'%3E%3Cpath d='M20 20m-15 0a15 15 0 1 1 30 0a15 15 0 1 1 -30 0'/%3E%3C/g%3E%3C/svg%3E")`
-                 }}>
+                  style={{
+                    backgroundImage: `url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%2300ff00' fill-opacity='0.1'%3E%3Cpath d='M20 20m-15 0a15 15 0 1 1 30 0a15 15 0 1 1 -30 0'/%3E%3C/g%3E%3C/svg%3E")`
+                  }}>
             </div>
           </div>
 
@@ -315,12 +321,14 @@ const ContactPage: React.FC = () => {
       </section>
 
       {/* FAQ Section */}
-      <section className="relative bg-gray-900 py-16 overflow-hidden">
-        {/* Coding Background Pattern */}
-        <div className="absolute inset-0 opacity-5">
-          <div className="absolute inset-0 bg-gradient-to-br from-gray-900 via-transparent to-gray-800"
+      <section className="relative bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 py-16 overflow-hidden">
+        {/* Enhanced Coding Background Pattern with Layered Depth */}
+        <div className="absolute inset-0">
+          <div className="absolute inset-0 bg-gradient-to-br from-gray-900 via-transparent to-gray-800"></div>
+          {/* Subtle alternating pattern */}
+          <div className="absolute inset-0 opacity-20"
                style={{
-                 backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23000000' fill-opacity='0.03'%3E%3Cpath d='M10 10h40v40H10z'/%3E%3C/g%3E%3C/svg%3E")`
+                 backgroundImage: `url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23000000' fill-opacity='0.02'%3E%3Crect x='10' y='10' width='80' height='80' rx='8'/%3E%3C/g%3E%3C/svg%3E")`
                }}>
           </div>
         </div>
@@ -335,7 +343,7 @@ const ContactPage: React.FC = () => {
           </div>
 
           <div className="space-y-6">
-            <div className="bg-gray-800/30 backdrop-blur-sm border border-gray-700/50 rounded-xl p-6 hover:bg-gray-700/50 transition-all duration-300 animate-fade-in-up">
+            <div className="bg-gradient-to-br from-gray-800/30 to-gray-700/30 backdrop-blur-sm border border-gray-700/50 rounded-xl p-6 hover:bg-gradient-to-br hover:from-gray-700/50 hover:to-gray-600/50 hover:shadow-xl hover:shadow-blue-500/20 hover:-translate-y-1 transition-all duration-300 animate-fade-in-up">
               <h3 className="text-xl font-medium text-white mb-4 flex items-center">
                 <span className="w-2 h-2 bg-blue-500 rounded-full mr-3 animate-pulse"></span>
                 How long does a typical project take?
