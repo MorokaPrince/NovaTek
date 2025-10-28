@@ -22,7 +22,7 @@ const HomePage: React.FC = () => {
   return (
     <div>
       {/* 1. HERO BANNER SECTION */}
-      <section className="relative bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 py-12 lg:py-20 overflow-hidden">
+      <section className="relative bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 py-16 overflow-hidden">
         {/* Gradient Background */}
         <div className="absolute inset-0">
           <div className="absolute inset-0 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900"></div>
@@ -82,7 +82,7 @@ const HomePage: React.FC = () => {
       </section>
 
       {/* Services Section - Horizontal Grid of Small Cards */}
-      <section className="bg-white py-12 relative overflow-hidden">
+      <section className="bg-white py-16 relative overflow-hidden">
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-light text-slate-900 mb-4 animate-fade-in-up">
@@ -148,7 +148,7 @@ const HomePage: React.FC = () => {
       </section>
 
       {/* Company Intro Section */}
-      <section className="bg-slate-50 py-12 relative overflow-hidden">
+      <section className="bg-slate-50 py-16 relative overflow-hidden">
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="animate-slide-in-left">
             <h2 className="text-3xl md:text-4xl font-light text-slate-900 mb-4 animate-fade-in-up">
@@ -240,7 +240,7 @@ const HomePage: React.FC = () => {
       </section>
 
       {/* Professional Coding Showcase Section */}
-      <section className="bg-white py-12 relative overflow-hidden">
+      <section className="bg-white py-16 relative overflow-hidden">
         {/* Real Coding Background */}
         <div className="absolute inset-0 opacity-8">
           <div className="absolute inset-0 bg-gradient-to-br from-gray-900/5 via-transparent to-gray-800/5"
@@ -379,7 +379,7 @@ const HomePage: React.FC = () => {
       </section>
 
       {/* Professional Contact CTA */}
-      <section id="contact" className="relative bg-gray-900 text-white py-12 overflow-hidden">
+      <section id="contact" className="relative bg-gray-900 text-white py-16 overflow-hidden">
         {/* Realistic Coding Background */}
         <div className="absolute inset-0">
           <div className="absolute inset-0 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900"></div>

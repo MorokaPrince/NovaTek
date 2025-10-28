@@ -4,7 +4,7 @@ const ServicesPage: React.FC = () => {
   return (
     <div className="bg-gray-50">
       {/* Hero Section */}
-      <section className="relative bg-gray-900 py-12 lg:py-20 overflow-hidden">
+      <section className="relative bg-gray-900 py-16 overflow-hidden">
         {/* Dark Coding Background */}
         <div className="absolute inset-0">
           <div className="absolute inset-0 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900"></div>
@@ -48,7 +48,7 @@ const ServicesPage: React.FC = () => {
       </section>
 
       {/* Services Grid */}
-      <section className="relative py-12 overflow-hidden bg-gray-900">
+      <section className="relative py-16 overflow-hidden bg-gray-900">
         {/* Dark Coding Background */}
         <div className="absolute inset-0">
           <div className="absolute inset-0 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900"></div>
@@ -274,7 +274,7 @@ const ServicesPage: React.FC = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="bg-gray-900 text-white py-12 relative overflow-hidden">
+      <section className="bg-gray-900 text-white py-16 relative overflow-hidden">
         {/* Animated Background */}
         <div className="absolute inset-0">
           <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900"></div>
