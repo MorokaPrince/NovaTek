@@ -4,7 +4,7 @@ const CaseStudiesPage: React.FC = () => {
   return (
     <div className="bg-gray-50">
       {/* Hero Section */}
-      <section className="relative bg-gray-900 py-12 lg:py-20 overflow-hidden">
+      <section className="relative bg-gray-900 py-16 overflow-hidden">
         {/* Dark Coding Background */}
         <div className="absolute inset-0">
           <div className="absolute inset-0 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900"></div>
@@ -48,7 +48,7 @@ const CaseStudiesPage: React.FC = () => {
       </section>
 
       {/* Case Studies Grid */}
-      <section className="relative py-12 overflow-hidden bg-gray-900">
+      <section className="relative py-16 overflow-hidden bg-gray-900">
         {/* Enhanced Dark Coding Background */}
         <div className="absolute inset-0">
           <div className="absolute inset-0 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900"></div>
@@ -274,7 +274,7 @@ const CaseStudiesPage: React.FC = () => {
       </section>
 
       {/* Stats Section */}
-      <section className="bg-gray-900 text-white py-12">
+      <section className="bg-gray-900 text-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-light mb-6">
@@ -307,7 +307,7 @@ const CaseStudiesPage: React.FC = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="bg-white py-12">
+      <section className="bg-white py-16">
         <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
           <h2 className="text-4xl md:text-5xl font-light mb-6 text-gray-900">
             Ready to Create Your Success Story?
