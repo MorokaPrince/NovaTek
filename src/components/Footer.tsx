@@ -38,9 +38,9 @@ const Footer: React.FC = () => {
                 </Link>
               </li>
               <li>
-                <Link href="/contact" className="text-gray-300 hover:text-white">
+                <a href="https://wa.me/27794484159?text=Hello, I'm interested in your services." target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-white">
                   Contact
-                </Link>
+                </a>
               </li>
             </ul>
           </div>
