@@ -316,10 +316,10 @@ const CaseStudiesPage: React.FC = () => {
             Join our list of successful clients and let us help you achieve your digital transformation goals.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="https://wa.me/27794484159?text=Hello, I'm interested in your services." target="_blank" rel="noopener noreferrer" className="bg-gray-900 text-white px-8 py-4 text-lg font-medium hover:bg-gray-800 transition-colors">
+            <a href="https://wa.me/27794484159?text=Hello, I'm interested in your services." target="_blank" rel="noopener noreferrer" className="bg-gradient-to-r from-blue-600 to-blue-700 text-white px-8 py-4 text-lg font-medium hover:from-blue-700 hover:to-blue-800 transition-colors">
               Start Your Project
             </a>
-            <button className="border border-gray-300 text-gray-900 px-8 py-4 text-lg font-medium hover:bg-gray-50 transition-colors">
+            <button className="border-2 border-gray-400 text-gray-900 px-8 py-4 text-lg font-medium hover:bg-gray-400/10 hover:border-gray-300 transition-colors">
               View All Case Studies
             </button>
           </div>

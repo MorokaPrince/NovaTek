@@ -173,7 +173,7 @@ const ContactPage: React.FC = () => {
 
                   <button
                     type="submit"
-                    className="w-full bg-gradient-to-r from-blue-600 to-purple-600 text-white py-4 px-8 text-lg font-medium hover:from-blue-700 hover:to-purple-700 transition-all duration-300 hover-lift animate-fade-in-up rounded-xl shadow-lg shadow-blue-500/25 group"
+                    className="w-full bg-gradient-to-r from-blue-600 to-blue-700 text-white py-4 px-8 text-lg font-medium hover:from-blue-700 hover:to-blue-800 transition-all duration-300 hover-lift animate-fade-in-up rounded-xl shadow-lg shadow-blue-500/25 group"
                     style={{animationDelay: '0.5s'}}
                   >
                     <span className="flex items-center justify-center">
