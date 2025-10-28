@@ -85,7 +85,7 @@ const HomePage: React.FC = () => {
       <section className="bg-white py-16 relative overflow-hidden">
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-light text-slate-900 mb-4 animate-fade-in-up">
+            <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4 animate-fade-in-up">
               Our Services
             </h2>
             <p className="text-lg text-slate-600 max-w-2xl mx-auto animate-fade-in-up animate-delay-200">
@@ -121,27 +121,27 @@ const HomePage: React.FC = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
                 </svg>
               </div>
-              <h3 className="text-xs font-medium text-slate-900 group-hover:text-gray-600 transition-colors">Management</h3>
+              <h3 className="text-sm font-semibold text-slate-900 group-hover:text-gray-600 transition-colors">Management</h3>
             </div>
 
             {/* Service Card 4 */}
             <div className="group bg-slate-50 rounded-xl p-6 text-center hover:bg-slate-100 transition-all duration-300 hover:shadow-lg hover:-translate-y-1 animate-fade-in-up animate-delay-300">
-              <div className="w-10 h-10 bg-blue-400 rounded-lg flex items-center justify-center mx-auto mb-2 group-hover:scale-110 transition-transform duration-300">
+              <div className="w-12 h-12 bg-blue-400 rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
                 <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M9 19l3 3m0 0l3-3m-3 3V10" />
                 </svg>
               </div>
-              <h3 className="text-xs font-medium text-slate-900 group-hover:text-blue-500 transition-colors">Cloud</h3>
+              <h3 className="text-sm font-semibold text-slate-900 group-hover:text-blue-500 transition-colors">Cloud</h3>
             </div>
 
             {/* Service Card 5 */}
             <div className="group bg-slate-50 rounded-xl p-6 text-center hover:bg-slate-100 transition-all duration-300 hover:shadow-lg hover:-translate-y-1 animate-fade-in-up animate-delay-400">
-              <div className="w-10 h-10 bg-slate-600 rounded-lg flex items-center justify-center mx-auto mb-2 group-hover:scale-110 transition-transform duration-300">
+              <div className="w-12 h-12 bg-slate-600 rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
                 <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
                 </svg>
               </div>
-              <h3 className="text-xs font-medium text-slate-900 group-hover:text-slate-700 transition-colors">Analytics</h3>
+              <h3 className="text-sm font-semibold text-slate-900 group-hover:text-slate-700 transition-colors">Analytics</h3>
             </div>
           </div>
         </div>
@@ -151,7 +151,7 @@ const HomePage: React.FC = () => {
       <section className="bg-slate-50 py-16 relative overflow-hidden">
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="animate-slide-in-left">
-            <h2 className="text-3xl md:text-4xl font-light text-slate-900 mb-4 animate-fade-in-up">
+            <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4 animate-fade-in-up">
               About NovaTek
             </h2>
             <p className="text-lg text-slate-600 max-w-2xl mx-auto animate-fade-in-up animate-delay-200">
@@ -159,7 +159,7 @@ const HomePage: React.FC = () => {
             </p>
 
             {/* Company Stats */}
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
               <div className="text-center animate-fade-in-up">
                 <div className="text-4xl font-bold text-blue-600 mb-2">2024</div>
                 <div className="text-slate-600">Founded</div>
@@ -176,48 +176,48 @@ const HomePage: React.FC = () => {
 
             {/* Team Members */}
             <div className="text-center mb-8">
-              <h3 className="text-2xl font-medium text-slate-900 mb-8 animate-fade-in-up">Our Team</h3>
+              <h3 className="text-2xl font-bold text-slate-900 mb-8 animate-fade-in-up">Our Team</h3>
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                <div className="bg-white rounded-lg p-4 shadow-sm hover:shadow-md transition-shadow duration-300 animate-fade-in-up">
-                  <div className="w-12 h-12 bg-blue-500 rounded-full mx-auto mb-4 flex items-center justify-center">
+                <div className="bg-white rounded-xl p-6 shadow-sm hover:shadow-lg transition-all duration-300 hover:-translate-y-1 animate-fade-in-up">
+                  <div className="w-16 h-16 bg-blue-500 rounded-full mx-auto mb-4 flex items-center justify-center">
                     <span className="text-white font-bold text-xl">MR</span>
                   </div>
-                  <h4 className="text-base font-medium text-slate-900 mb-1">May Rakgama</h4>
+                  <h4 className="text-lg font-semibold text-slate-900 mb-2">May Rakgama</h4>
                   <p className="text-slate-600">Cape Town</p>
                 </div>
-                <div className="bg-white rounded-lg p-4 shadow-sm hover:shadow-md transition-shadow duration-300 animate-fade-in-up animate-delay-100">
-                  <div className="w-12 h-12 bg-slate-500 rounded-full mx-auto mb-4 flex items-center justify-center">
+                <div className="bg-white rounded-xl p-6 shadow-sm hover:shadow-lg transition-all duration-300 hover:-translate-y-1 animate-fade-in-up animate-delay-100">
+                  <div className="w-16 h-16 bg-slate-500 rounded-full mx-auto mb-4 flex items-center justify-center">
                     <span className="text-white font-bold text-xl">MO</span>
                   </div>
-                  <h4 className="text-base font-medium text-slate-900 mb-1">Mentor Olifant</h4>
+                  <h4 className="text-lg font-semibold text-slate-900 mb-2">Mentor Olifant</h4>
                   <p className="text-slate-600">North West</p>
                 </div>
-                <div className="bg-white rounded-lg p-4 shadow-sm hover:shadow-md transition-shadow duration-300 animate-fade-in-up animate-delay-200">
-                  <div className="w-12 h-12 bg-gray-500 rounded-full mx-auto mb-4 flex items-center justify-center">
+                <div className="bg-white rounded-xl p-6 shadow-sm hover:shadow-lg transition-all duration-300 hover:-translate-y-1 animate-fade-in-up animate-delay-200">
+                  <div className="w-16 h-16 bg-gray-500 rounded-full mx-auto mb-4 flex items-center justify-center">
                     <span className="text-white font-bold text-xl">BR</span>
                   </div>
-                  <h4 className="text-base font-medium text-slate-900 mb-1">Bogosi Ramokoka</h4>
+                  <h4 className="text-lg font-semibold text-slate-900 mb-2">Bogosi Ramokoka</h4>
                   <p className="text-slate-600">Johannesburg</p>
                 </div>
-                <div className="bg-white rounded-lg p-4 shadow-sm hover:shadow-md transition-shadow duration-300 animate-fade-in-up animate-delay-300">
-                  <div className="w-12 h-12 bg-blue-400 rounded-lg mx-auto mb-4 flex items-center justify-center">
+                <div className="bg-white rounded-xl p-6 shadow-sm hover:shadow-lg transition-all duration-300 hover:-translate-y-1 animate-fade-in-up animate-delay-300">
+                  <div className="w-16 h-16 bg-blue-400 rounded-full mx-auto mb-4 flex items-center justify-center">
                     <span className="text-white font-bold text-xl">MH</span>
                   </div>
-                  <h4 className="text-base font-medium text-slate-900 mb-1">Mpho Hamesi</h4>
+                  <h4 className="text-lg font-semibold text-slate-900 mb-2">Mpho Hamesi</h4>
                   <p className="text-slate-600">Pretoria</p>
                 </div>
-                <div className="bg-white rounded-lg p-4 shadow-sm hover:shadow-md transition-shadow duration-300 animate-fade-in-up animate-delay-400">
-                  <div className="w-12 h-12 bg-slate-600 rounded-full mx-auto mb-4 flex items-center justify-center">
+                <div className="bg-white rounded-xl p-6 shadow-sm hover:shadow-lg transition-all duration-300 hover:-translate-y-1 animate-fade-in-up animate-delay-400">
+                  <div className="w-16 h-16 bg-slate-600 rounded-full mx-auto mb-4 flex items-center justify-center">
                     <span className="text-white font-bold text-xl">ON</span>
                   </div>
-                  <h4 className="text-base font-medium text-slate-900 mb-1">Olwethu Ndlovu</h4>
+                  <h4 className="text-lg font-semibold text-slate-900 mb-2">Olwethu Ndlovu</h4>
                   <p className="text-slate-600">Mpumalanga</p>
                 </div>
-                <div className="bg-white rounded-lg p-4 shadow-sm hover:shadow-md transition-shadow duration-300 animate-fade-in-up animate-delay-500">
-                  <div className="w-12 h-12 bg-gray-600 rounded-full mx-auto mb-4 flex items-center justify-center">
+                <div className="bg-white rounded-xl p-6 shadow-sm hover:shadow-lg transition-all duration-300 hover:-translate-y-1 animate-fade-in-up animate-delay-500">
+                  <div className="w-16 h-16 bg-gray-600 rounded-full mx-auto mb-4 flex items-center justify-center">
                     <span className="text-white font-bold text-xl">LT</span>
                   </div>
-                  <h4 className="text-base font-medium text-slate-900 mb-1">Lawrance Thipe</h4>
+                  <h4 className="text-lg font-semibold text-slate-900 mb-2">Lawrence Thipe</h4>
                   <p className="text-slate-600">Limpopo</p>
                 </div>
               </div>
@@ -252,10 +252,10 @@ const HomePage: React.FC = () => {
 
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12 animate-fade-in">
-            <h2 className="text-3xl md:text-4xl font-light text-gray-900 mb-6 animate-fade-in-up">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6 animate-fade-in-up">
               Technology in
               <br />
-              <span className="font-medium text-transparent bg-clip-text bg-gradient-to-r from-gray-800 to-gray-600">Action</span>
+              <span className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-gray-800 to-gray-600">Action</span>
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto animate-fade-in-up leading-relaxed">
               See how cutting-edge technology transforms businesses and drives innovation across industries.
@@ -273,7 +273,7 @@ const HomePage: React.FC = () => {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
                     </svg>
                   </div>
-                  <h3 className="text-white text-lg font-semibold mb-2">Clean Code</h3>
+                  <h3 className="text-white text-lg font-bold mb-2">Clean Code</h3>
                   <p className="text-gray-300 text-sm leading-relaxed">Well-structured, maintainable code that scales with your business</p>
                 </div>
 
@@ -305,7 +305,7 @@ const HomePage: React.FC = () => {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
                     </svg>
                   </div>
-                  <h3 className="text-gray-900 text-lg font-semibold mb-2">Data Analytics</h3>
+                  <h3 className="text-gray-900 text-lg font-bold mb-2">Data Analytics</h3>
                   <p className="text-gray-600 text-sm leading-relaxed">Transform raw data into actionable insights for smarter decisions</p>
                 </div>
 
@@ -343,7 +343,7 @@ const HomePage: React.FC = () => {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M9 19l3 3m0 0l3-3m-3 3V10" />
                     </svg>
                   </div>
-                  <h3 className="text-gray-900 text-lg font-semibold mb-2">Cloud Solutions</h3>
+                  <h3 className="text-gray-900 text-lg font-bold mb-2">Cloud Solutions</h3>
                   <p className="text-gray-600 text-sm leading-relaxed">Scalable, secure cloud infrastructure for modern applications</p>
                 </div>
 
@@ -400,7 +400,7 @@ const HomePage: React.FC = () => {
         </div>
 
         <div className="relative max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl md:text-4xl font-light mb-6 animate-fade-in-up">
+          <h2 className="text-3xl md:text-4xl font-bold mb-6 animate-fade-in-up">
             Ready to Transform Your Business?
           </h2>
           <p className="text-lg text-gray-300 mb-12 animate-fade-in-up leading-relaxed">
