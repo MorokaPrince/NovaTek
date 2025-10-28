@@ -4,7 +4,7 @@ const ServicesPage: React.FC = () => {
   return (
     <div className="bg-gray-50">
       {/* Hero Section */}
-      <section className="relative bg-gray-900 py-20 lg:py-32 overflow-hidden">
+      <section className="relative bg-gray-900 py-12 lg:py-20 overflow-hidden">
         {/* Dark Coding Background */}
         <div className="absolute inset-0">
           <div className="absolute inset-0 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900"></div>
@@ -26,7 +26,7 @@ const ServicesPage: React.FC = () => {
               </span>
             </div>
 
-            <h1 className="text-5xl md:text-6xl lg:text-7xl font-light text-white mb-8 leading-tight animate-fade-in-up">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-light text-white mb-8 leading-tight animate-fade-in-up">
               Comprehensive
               <br />
               <span className="font-medium relative text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-400">
@@ -39,7 +39,7 @@ const ServicesPage: React.FC = () => {
               <span className="font-medium text-green-400">solutions</span>.
             </h1>
 
-            <p className="text-xl md:text-2xl text-gray-300 mb-12 leading-relaxed max-w-3xl mx-auto animate-fade-in-up">
+            <p className="text-lg md:text-xl text-gray-300 mb-12 leading-relaxed max-w-3xl mx-auto animate-fade-in-up">
               From strategy to execution, we provide <span className="font-medium text-white">end-to-end technology consulting</span> services
               that drive <span className="font-medium text-green-400">measurable business outcomes</span> and sustainable growth.
             </p>
@@ -48,7 +48,7 @@ const ServicesPage: React.FC = () => {
       </section>
 
       {/* Services Grid */}
-      <section className="relative py-20 overflow-hidden bg-gray-900">
+      <section className="relative py-12 overflow-hidden bg-gray-900">
         {/* Dark Coding Background */}
         <div className="absolute inset-0">
           <div className="absolute inset-0 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900"></div>
@@ -65,24 +65,24 @@ const ServicesPage: React.FC = () => {
         </div>
 
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             {/* Technology Consulting */}
-            <div className="group relative bg-gray-800/50 backdrop-blur-sm p-8 lg:p-12 rounded-2xl border border-gray-700/50 hover:bg-gray-700/60 hover:border-gray-600/70 transition-all duration-500 hover-lift animate-slide-in-left overflow-hidden">
+            <div className="group relative bg-gray-800/50 backdrop-blur-sm p-6 lg:p-8 rounded-2xl border border-gray-700/50 hover:bg-gray-700/60 hover:border-gray-600/70 transition-all duration-500 hover-lift animate-slide-in-left overflow-hidden">
               <div className="absolute inset-0 bg-gradient-to-br from-blue-500/10 to-indigo-500/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
               <div className="relative">
-                <div className="w-24 h-24 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-2xl flex items-center justify-center mb-8 transition-all duration-300 group-hover:scale-110 group-hover:rotate-3 shadow-2xl shadow-blue-500/25">
-                  <svg className="w-12 h-12 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <div className="w-16 h-16 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-2xl flex items-center justify-center mb-6 transition-all duration-300 group-hover:scale-110 group-hover:rotate-3 shadow-2xl shadow-blue-500/25">
+                  <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
                   </svg>
                 </div>
 
-                <h2 className="text-3xl md:text-4xl font-light text-white mb-6 group-hover:text-blue-300 transition-colors duration-300">
+                <h2 className="text-2xl md:text-3xl font-light text-white mb-4 group-hover:text-blue-300 transition-colors duration-300">
                   Technology
                   <br />
                   <span className="font-medium text-blue-400">Consulting</span>
                 </h2>
 
-                <p className="text-lg text-gray-300 mb-8 leading-relaxed group-hover:text-gray-200 transition-colors duration-300">
+                <p className="text-base text-gray-300 mb-6 leading-relaxed group-hover:text-gray-200 transition-colors duration-300">
                   Strategic technology guidance to help you make informed decisions and stay ahead of the competition.
                   We provide comprehensive analysis and recommendations tailored to your business objectives.
                 </p>
@@ -118,22 +118,22 @@ const ServicesPage: React.FC = () => {
             </div>
 
             {/* Digital Transformation */}
-            <div className="group relative bg-gray-800/50 backdrop-blur-sm p-8 lg:p-12 rounded-2xl border border-gray-700/50 hover:bg-gray-700/60 hover:border-gray-600/70 transition-all duration-500 hover-lift animate-slide-in-right overflow-hidden">
+            <div className="group relative bg-gray-800/50 backdrop-blur-sm p-6 lg:p-8 rounded-2xl border border-gray-700/50 hover:bg-gray-700/60 hover:border-gray-600/70 transition-all duration-500 hover-lift animate-slide-in-right overflow-hidden">
               <div className="absolute inset-0 bg-gradient-to-br from-purple-500/10 to-pink-500/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
               <div className="relative">
-                <div className="w-24 h-24 bg-gradient-to-br from-purple-500 to-pink-600 rounded-2xl flex items-center justify-center mb-8 transition-all duration-300 group-hover:scale-110 group-hover:-rotate-3 shadow-2xl shadow-purple-500/25">
-                  <svg className="w-12 h-12 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <div className="w-16 h-16 bg-gradient-to-br from-purple-500 to-pink-600 rounded-2xl flex items-center justify-center mb-6 transition-all duration-300 group-hover:scale-110 group-hover:-rotate-3 shadow-2xl shadow-purple-500/25">
+                  <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
                   </svg>
                 </div>
 
-                <h2 className="text-3xl md:text-4xl font-light text-white mb-6 group-hover:text-purple-300 transition-colors duration-300">
+                <h2 className="text-2xl md:text-3xl font-light text-white mb-4 group-hover:text-purple-300 transition-colors duration-300">
                   Digital
                   <br />
                   <span className="font-medium text-purple-400">Transformation</span>
                 </h2>
 
-                <p className="text-lg text-gray-300 mb-8 leading-relaxed group-hover:text-gray-200 transition-colors duration-300">
+                <p className="text-base text-gray-300 mb-6 leading-relaxed group-hover:text-gray-200 transition-colors duration-300">
                   Transform your business processes with cutting-edge digital solutions tailored to your unique needs.
                   We help you leverage technology to improve efficiency and customer experience.
                 </p>
@@ -169,22 +169,22 @@ const ServicesPage: React.FC = () => {
             </div>
 
             {/* Project Management */}
-            <div className="group relative bg-gray-800/50 backdrop-blur-sm p-8 lg:p-12 rounded-2xl border border-gray-700/50 hover:bg-gray-700/60 hover:border-gray-600/70 transition-all duration-500 hover-lift animate-fade-in-up overflow-hidden">
+            <div className="group relative bg-gray-800/50 backdrop-blur-sm p-6 lg:p-8 rounded-2xl border border-gray-700/50 hover:bg-gray-700/60 hover:border-gray-600/70 transition-all duration-500 hover-lift animate-fade-in-up overflow-hidden">
               <div className="absolute inset-0 bg-gradient-to-br from-green-500/10 to-teal-500/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
               <div className="relative">
-                <div className="w-24 h-24 bg-gradient-to-br from-green-500 to-teal-600 rounded-2xl flex items-center justify-center mb-8 transition-all duration-300 group-hover:scale-110 group-hover:rotate-3 shadow-2xl shadow-green-500/25">
-                  <svg className="w-12 h-12 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <div className="w-16 h-16 bg-gradient-to-br from-green-500 to-teal-600 rounded-2xl flex items-center justify-center mb-6 transition-all duration-300 group-hover:scale-110 group-hover:rotate-3 shadow-2xl shadow-green-500/25">
+                  <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
                   </svg>
                 </div>
 
-                <h2 className="text-3xl md:text-4xl font-light text-white mb-6 group-hover:text-green-300 transition-colors duration-300">
+                <h2 className="text-2xl md:text-3xl font-light text-white mb-4 group-hover:text-green-300 transition-colors duration-300">
                   Project
                   <br />
                   <span className="font-medium text-green-400">Management</span>
                 </h2>
 
-                <p className="text-lg text-gray-300 mb-8 leading-relaxed group-hover:text-gray-200 transition-colors duration-300">
+                <p className="text-base text-gray-300 mb-6 leading-relaxed group-hover:text-gray-200 transition-colors duration-300">
                   Expert project management services to ensure successful delivery of your technology initiatives.
                   We combine proven methodologies with agile practices for optimal results.
                 </p>
@@ -220,22 +220,22 @@ const ServicesPage: React.FC = () => {
             </div>
 
             {/* Custom Development */}
-            <div className="group relative bg-gray-800/50 backdrop-blur-sm p-8 lg:p-12 rounded-2xl border border-gray-700/50 hover:bg-gray-700/60 hover:border-gray-600/70 transition-all duration-500 hover-lift animate-fade-in-up overflow-hidden">
+            <div className="group relative bg-gray-800/50 backdrop-blur-sm p-6 lg:p-8 rounded-2xl border border-gray-700/50 hover:bg-gray-700/60 hover:border-gray-600/70 transition-all duration-500 hover-lift animate-fade-in-up overflow-hidden">
               <div className="absolute inset-0 bg-gradient-to-br from-orange-500/10 to-red-500/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
               <div className="relative">
-                <div className="w-24 h-24 bg-gradient-to-br from-orange-500 to-red-600 rounded-2xl flex items-center justify-center mb-8 transition-all duration-300 group-hover:scale-110 group-hover:-rotate-3 shadow-2xl shadow-orange-500/25">
-                  <svg className="w-12 h-12 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <div className="w-16 h-16 bg-gradient-to-br from-orange-500 to-red-600 rounded-2xl flex items-center justify-center mb-6 transition-all duration-300 group-hover:scale-110 group-hover:-rotate-3 shadow-2xl shadow-orange-500/25">
+                  <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
                   </svg>
                 </div>
 
-                <h2 className="text-3xl md:text-4xl font-light text-white mb-6 group-hover:text-orange-300 transition-colors duration-300">
+                <h2 className="text-2xl md:text-3xl font-light text-white mb-4 group-hover:text-orange-300 transition-colors duration-300">
                   Custom
                   <br />
                   <span className="font-medium text-orange-400">Development</span>
                 </h2>
 
-                <p className="text-lg text-gray-300 mb-8 leading-relaxed group-hover:text-gray-200 transition-colors duration-300">
+                <p className="text-base text-gray-300 mb-6 leading-relaxed group-hover:text-gray-200 transition-colors duration-300">
                   Bespoke software development solutions designed specifically for your business requirements.
                   We build scalable, maintainable applications that grow with your needs.
                 </p>
@@ -274,7 +274,7 @@ const ServicesPage: React.FC = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="bg-gray-900 text-white py-20 relative overflow-hidden">
+      <section className="bg-gray-900 text-white py-12 relative overflow-hidden">
         {/* Animated Background */}
         <div className="absolute inset-0">
           <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900"></div>
