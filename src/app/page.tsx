@@ -23,9 +23,15 @@ const HomePage: React.FC = () => {
     <div>
       {/* 1. HERO BANNER SECTION */}
       <section className="relative bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 py-16 overflow-hidden">
-        {/* Gradient Background */}
+        {/* Enhanced Gradient Background with Geometric Pattern */}
         <div className="absolute inset-0">
           <div className="absolute inset-0 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900"></div>
+          {/* Subtle Geometric Pattern */}
+          <div className="absolute inset-0 opacity-5"
+               style={{
+                 backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.1'%3E%3Ccircle cx='30' cy='30' r='2'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`
+               }}>
+          </div>
           {/* Muted Floating Elements */}
           <div className="absolute top-10 left-20 text-slate-400/10 text-sm animate-float">Innovation</div>
           <div className="absolute top-32 right-32 text-blue-400/10 text-sm animate-pulse">Solutions</div>
@@ -82,7 +88,13 @@ const HomePage: React.FC = () => {
       </section>
 
       {/* Services Section - Horizontal Grid of Small Cards */}
-      <section className="bg-white py-16 relative overflow-hidden">
+      <section className="bg-gradient-to-br from-white via-gray-50 to-white py-16 relative overflow-hidden">
+        {/* Subtle alternating depth background */}
+        <div className="absolute inset-0 opacity-30"
+             style={{
+               backgroundImage: `url("data:image/svg+xml,%3Csvg width='80' height='80' viewBox='0 0 80 80' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23000000' fill-opacity='0.02'%3E%3Crect x='10' y='10' width='60' height='60' rx='8'/%3E%3C/g%3E%3C/svg%3E")`
+             }}>
+        </div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4 animate-fade-in-up">
@@ -95,7 +107,7 @@ const HomePage: React.FC = () => {
 
           <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-4">
             {/* Service Card 1 */}
-            <div className="group bg-slate-50 rounded-xl p-6 text-center hover:bg-slate-100 transition-all duration-300 hover:shadow-lg hover:-translate-y-1 animate-fade-in-up">
+            <div className="group bg-gradient-to-br from-slate-50 to-slate-100 rounded-xl p-6 text-center hover:bg-gradient-to-br hover:from-slate-100 hover:to-slate-200 transition-all duration-300 hover:shadow-xl hover:shadow-slate-200/50 hover:-translate-y-2 animate-fade-in-up border border-slate-200/50 hover:border-slate-300/70">
               <div className="w-12 h-12 bg-blue-500 rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
                 <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
@@ -148,7 +160,13 @@ const HomePage: React.FC = () => {
       </section>
 
       {/* Company Intro Section */}
-      <section className="bg-slate-50 py-16 relative overflow-hidden">
+      <section className="bg-gradient-to-br from-slate-50 via-slate-100 to-slate-50 py-16 relative overflow-hidden">
+        {/* Medium depth background with subtle pattern */}
+        <div className="absolute inset-0 opacity-20"
+             style={{
+               backgroundImage: `url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23000000' fill-opacity='0.03'%3E%3Cpath d='M50 50m-40 0a40 40 0 1 1 80 0a40 40 0 1 1 -80 0'/%3E%3C/g%3E%3C/svg%3E")`
+             }}>
+        </div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="animate-slide-in-left">
             <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4 animate-fade-in-up">
@@ -240,10 +258,11 @@ const HomePage: React.FC = () => {
       </section>
 
       {/* Professional Coding Showcase Section */}
-      <section className="bg-white py-16 relative overflow-hidden">
-        {/* Real Coding Background */}
-        <div className="absolute inset-0 opacity-8">
-          <div className="absolute inset-0 bg-gradient-to-br from-gray-900/5 via-transparent to-gray-800/5"
+      <section className="bg-gradient-to-br from-white via-gray-50 to-white py-16 relative overflow-hidden">
+        {/* Enhanced layered depth background */}
+        <div className="absolute inset-0">
+          <div className="absolute inset-0 bg-gradient-to-br from-gray-900/5 via-transparent to-gray-800/5"></div>
+          <div className="absolute inset-0 opacity-10"
                style={{
                  backgroundImage: `url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23000000' fill-opacity='0.03'%3E%3Crect x='10' y='10' width='80' height='80' rx='8'/%3E%3Crect x='20' y='20' width='60' height='60' rx='4' fill='%23fff' fill-opacity='0.02'/%3E%3C/g%3E%3C/svg%3E")`
                }}>
