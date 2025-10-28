@@ -1,6 +1,27 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 const ContactPage: React.FC = () => {
+  const [formData, setFormData] = useState({
+    firstName: '',
+    lastName: '',
+    email: '',
+    company: '',
+    message: ''
+  });
+
+  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+    const { name, value } = e.target;
+    setFormData(prev => ({ ...prev, [name]: value }));
+  };
+
+  const handleSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    const { firstName, lastName, email, company, message } = formData;
+    const whatsappMessage = `Hello, I'm interested in your services.\n\nName: ${firstName} ${lastName}\nEmail: ${email}\nCompany: ${company}\nMessage: ${message}`;
+    const whatsappUrl = `https://wa.me/27794484159?text=${encodeURIComponent(whatsappMessage)}`;
+    window.open(whatsappUrl, '_blank');
+  };
+
   return (
     <div className="bg-gray-50">
       {/* Hero Section */}
@@ -69,7 +90,7 @@ const ContactPage: React.FC = () => {
                   <span className="font-medium text-blue-400">message</span>
                 </h2>
 
-                <form className="space-y-6">
+                <form onSubmit={handleSubmit} className="space-y-6">
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <div className="animate-fade-in-up">
                       <label htmlFor="firstName" className="block text-sm font-medium text-gray-300 mb-2">
@@ -79,8 +100,11 @@ const ContactPage: React.FC = () => {
                         type="text"
                         id="firstName"
                         name="firstName"
+                        value={formData.firstName}
+                        onChange={handleInputChange}
                         className="w-full px-4 py-3 bg-gray-700/50 border border-gray-600 rounded-lg text-white placeholder-gray-400 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-all duration-300 hover:border-gray-500"
                         placeholder="John"
+                        required
                       />
                     </div>
                     <div className="animate-fade-in-up" style={{animationDelay: '0.1s'}}>
@@ -91,8 +115,11 @@ const ContactPage: React.FC = () => {
                         type="text"
                         id="lastName"
                         name="lastName"
+                        value={formData.lastName}
+                        onChange={handleInputChange}
                         className="w-full px-4 py-3 bg-gray-700/50 border border-gray-600 rounded-lg text-white placeholder-gray-400 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-all duration-300 hover:border-gray-500"
                         placeholder="Doe"
+                        required
                       />
                     </div>
                   </div>
@@ -105,8 +132,11 @@ const ContactPage: React.FC = () => {
                       type="email"
                       id="email"
                       name="email"
+                      value={formData.email}
+                      onChange={handleInputChange}
                       className="w-full px-4 py-3 bg-gray-700/50 border border-gray-600 rounded-lg text-white placeholder-gray-400 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-all duration-300 hover:border-gray-500"
                       placeholder="john@example.com"
+                      required
                     />
                   </div>
 
@@ -118,6 +148,8 @@ const ContactPage: React.FC = () => {
                       type="text"
                       id="company"
                       name="company"
+                      value={formData.company}
+                      onChange={handleInputChange}
                       className="w-full px-4 py-3 bg-gray-700/50 border border-gray-600 rounded-lg text-white placeholder-gray-400 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-all duration-300 hover:border-gray-500"
                       placeholder="Your Company"
                     />
@@ -130,9 +162,12 @@ const ContactPage: React.FC = () => {
                     <textarea
                       id="message"
                       name="message"
+                      value={formData.message}
+                      onChange={handleInputChange}
                       rows={6}
                       className="w-full px-4 py-3 bg-gray-700/50 border border-gray-600 rounded-lg text-white placeholder-gray-400 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-all duration-300 hover:border-gray-500"
                       placeholder="Tell us about your project..."
+                      required
                     ></textarea>
                   </div>
 

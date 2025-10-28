@@ -290,14 +290,14 @@ const ServicesPage: React.FC = () => {
             Let&apos;s discuss your project requirements and how we can help you achieve your technology goals.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in-up">
-            <button className="group bg-white text-gray-900 px-8 py-4 text-lg font-medium hover:bg-gray-100 transition-all duration-300 hover-lift">
+            <a href="https://wa.me/27794484159?text=Hello, I'm interested in your services." target="_blank" rel="noopener noreferrer" className="group bg-white text-gray-900 px-8 py-4 text-lg font-medium hover:bg-gray-100 transition-all duration-300 hover-lift">
               <span className="flex items-center">
                 Start Your Project
                 <svg className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
                 </svg>
               </span>
-            </button>
+            </a>
             <button className="group border-2 border-gray-600 text-white px-8 py-4 text-lg font-medium hover:bg-gray-800 hover:border-gray-500 transition-all duration-300 hover-lift">
               <span className="flex items-center">
                 <svg className="w-5 h-5 mr-2 group-hover:rotate-12 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">

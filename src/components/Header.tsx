@@ -22,12 +22,12 @@ const Header: React.FC = () => {
             <Link href="/case-studies" className="text-gray-700 hover:text-gray-900 text-sm font-medium transition-colors duration-300">
               Case Studies
             </Link>
-            <Link href="/contact" className="text-gray-700 hover:text-gray-900 text-sm font-medium transition-colors duration-300">
+            <a href="https://wa.me/27794484159?text=Hello, I'm interested in your services." target="_blank" rel="noopener noreferrer" className="text-gray-700 hover:text-gray-900 text-sm font-medium transition-colors duration-300">
               Contact
-            </Link>
-            <Link href="/services" className="bg-gradient-to-r from-gray-900 to-gray-800 text-white px-6 py-2 text-sm font-medium hover:from-gray-800 hover:to-gray-700 transition-all duration-300 hover-lift">
+            </a>
+            <a href="https://wa.me/27794484159?text=Hello, I'm interested in your services." target="_blank" rel="noopener noreferrer" className="bg-gradient-to-r from-gray-900 to-gray-800 text-white px-6 py-2 text-sm font-medium hover:from-gray-800 hover:to-gray-700 transition-all duration-300 hover-lift">
               Get Started
-            </Link>
+            </a>
           </div>
 
           <div className="md:hidden flex items-center">
