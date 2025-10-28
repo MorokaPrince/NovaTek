@@ -95,28 +95,28 @@ const HomePage: React.FC = () => {
 
           <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-4">
             {/* Service Card 1 */}
-            <div className="group bg-slate-50 rounded-lg p-3 text-center hover:bg-slate-100 transition-all duration-300 hover:shadow-md animate-fade-in-up">
-              <div className="w-10 h-10 bg-blue-500 rounded-lg flex items-center justify-center mx-auto mb-2 group-hover:scale-110 transition-transform duration-300">
+            <div className="group bg-slate-50 rounded-xl p-6 text-center hover:bg-slate-100 transition-all duration-300 hover:shadow-lg hover:-translate-y-1 animate-fade-in-up">
+              <div className="w-12 h-12 bg-blue-500 rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
                 <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
                 </svg>
               </div>
-              <h3 className="text-xs font-medium text-slate-900 group-hover:text-blue-600 transition-colors">Consulting</h3>
+              <h3 className="text-sm font-semibold text-slate-900 group-hover:text-blue-600 transition-colors">Consulting</h3>
             </div>
 
             {/* Service Card 2 */}
-            <div className="group bg-slate-50 rounded-lg p-3 text-center hover:bg-slate-100 transition-all duration-300 hover:shadow-md animate-fade-in-up animate-delay-100">
-              <div className="w-10 h-10 bg-slate-500 rounded-lg flex items-center justify-center mx-auto mb-2 group-hover:scale-110 transition-transform duration-300">
+            <div className="group bg-slate-50 rounded-xl p-6 text-center hover:bg-slate-100 transition-all duration-300 hover:shadow-lg hover:-translate-y-1 animate-fade-in-up animate-delay-100">
+              <div className="w-12 h-12 bg-slate-500 rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
                 <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
                 </svg>
               </div>
-              <h3 className="text-xs font-medium text-slate-900 group-hover:text-slate-600 transition-colors">Transformation</h3>
+              <h3 className="text-sm font-semibold text-slate-900 group-hover:text-slate-600 transition-colors">Transformation</h3>
             </div>
 
             {/* Service Card 3 */}
-            <div className="group bg-slate-50 rounded-lg p-3 text-center hover:bg-slate-100 transition-all duration-300 hover:shadow-md animate-fade-in-up animate-delay-200">
-              <div className="w-10 h-10 bg-gray-500 rounded-lg flex items-center justify-center mx-auto mb-2 group-hover:scale-110 transition-transform duration-300">
+            <div className="group bg-slate-50 rounded-xl p-6 text-center hover:bg-slate-100 transition-all duration-300 hover:shadow-lg hover:-translate-y-1 animate-fade-in-up animate-delay-200">
+              <div className="w-12 h-12 bg-gray-500 rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
                 <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
                 </svg>
@@ -125,7 +125,7 @@ const HomePage: React.FC = () => {
             </div>
 
             {/* Service Card 4 */}
-            <div className="group bg-slate-50 rounded-lg p-3 text-center hover:bg-slate-100 transition-all duration-300 hover:shadow-md animate-fade-in-up animate-delay-300">
+            <div className="group bg-slate-50 rounded-xl p-6 text-center hover:bg-slate-100 transition-all duration-300 hover:shadow-lg hover:-translate-y-1 animate-fade-in-up animate-delay-300">
               <div className="w-10 h-10 bg-blue-400 rounded-lg flex items-center justify-center mx-auto mb-2 group-hover:scale-110 transition-transform duration-300">
                 <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M9 19l3 3m0 0l3-3m-3 3V10" />
@@ -135,7 +135,7 @@ const HomePage: React.FC = () => {
             </div>
 
             {/* Service Card 5 */}
-            <div className="group bg-slate-50 rounded-lg p-3 text-center hover:bg-slate-100 transition-all duration-300 hover:shadow-md animate-fade-in-up animate-delay-400">
+            <div className="group bg-slate-50 rounded-xl p-6 text-center hover:bg-slate-100 transition-all duration-300 hover:shadow-lg hover:-translate-y-1 animate-fade-in-up animate-delay-400">
               <div className="w-10 h-10 bg-slate-600 rounded-lg flex items-center justify-center mx-auto mb-2 group-hover:scale-110 transition-transform duration-300">
                 <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
