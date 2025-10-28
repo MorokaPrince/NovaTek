@@ -156,7 +156,7 @@ const HomePage: React.FC = () => {
               About NovaTek
             </h2>
             <p className="text-lg text-slate-600 max-w-2xl mx-auto animate-fade-in-up animate-delay-200">
-              Founded in 2024, we've successfully delivered 9 projects for our clients, driving innovation and growth.
+              Founded in 2024, we&apos;ve successfully delivered 9 projects for our clients, driving innovation and growth.
             </p>
 
             {/* Company Stats */}
