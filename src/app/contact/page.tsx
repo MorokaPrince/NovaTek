@@ -52,10 +52,10 @@ const ContactPage: React.FC = () => {
               <br />
               something
               <br />
-              <span className="font-medium">amazing</span>.
+              <span className="font-medium text-green-400">amazing</span>.
             </h1>
 
-            <p className="text-lg md:text-xl text-gray-600 mb-12 leading-relaxed max-w-3xl mx-auto animate-fade-in-up">
+            <p className="text-lg md:text-xl text-gray-300 mb-12 leading-relaxed max-w-3xl mx-auto animate-fade-in-up">
               Ready to transform your business with cutting-edge technology solutions?
               Get in touch with our team to discuss your project requirements and discover how we can help.
             </p>
@@ -64,7 +64,7 @@ const ContactPage: React.FC = () => {
       </section>
 
       {/* Contact Section */}
-      <section className="relative py-12 overflow-hidden bg-gray-900">
+      <section className="relative py-16 overflow-hidden bg-gray-900">
         {/* Dark Coding Background */}
         <div className="absolute inset-0">
           <div className="absolute inset-0 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900"></div>
@@ -302,7 +302,7 @@ const ContactPage: React.FC = () => {
       </section>
 
       {/* FAQ Section */}
-      <section className="relative bg-gray-900 py-12 overflow-hidden">
+      <section className="relative bg-gray-900 py-16 overflow-hidden">
         {/* Coding Background Pattern */}
         <div className="absolute inset-0 opacity-5">
           <div className="absolute inset-0 bg-gradient-to-br from-gray-900 via-transparent to-gray-800"
