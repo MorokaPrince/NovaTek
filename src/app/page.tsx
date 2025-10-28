@@ -159,7 +159,7 @@ const HomePage: React.FC = () => {
             </p>
 
             {/* Company Stats */}
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
               <div className="text-center animate-fade-in-up">
                 <div className="text-4xl font-bold text-blue-600 mb-2">2024</div>
                 <div className="text-slate-600">Founded</div>
@@ -177,7 +177,7 @@ const HomePage: React.FC = () => {
             {/* Team Members */}
             <div className="text-center mb-8">
               <h3 className="text-2xl font-bold text-slate-900 mb-8 animate-fade-in-up">Our Team</h3>
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 <div className="bg-white rounded-xl p-6 shadow-sm hover:shadow-lg transition-all duration-300 hover:-translate-y-1 animate-fade-in-up">
                   <div className="w-16 h-16 bg-blue-500 rounded-full mx-auto mb-4 flex items-center justify-center">
                     <span className="text-white font-bold text-xl">MR</span>
