@@ -117,7 +117,7 @@ const HomePage: React.FC = () => {
             </div>
 
             {/* Service Card 2 */}
-            <div className="group bg-slate-50 rounded-xl p-6 text-center hover:bg-slate-100 transition-all duration-300 hover:shadow-lg hover:-translate-y-1 animate-fade-in-up animate-delay-100">
+            <div className="group bg-gradient-to-br from-slate-50 to-slate-100 rounded-xl p-6 text-center hover:bg-gradient-to-br hover:from-slate-100 hover:to-slate-200 transition-all duration-300 hover:shadow-xl hover:shadow-slate-200/50 hover:-translate-y-2 animate-fade-in-up animate-delay-100 border border-slate-200/50 hover:border-slate-300/70">
               <div className="w-12 h-12 bg-slate-500 rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
                 <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
@@ -127,7 +127,7 @@ const HomePage: React.FC = () => {
             </div>
 
             {/* Service Card 3 */}
-            <div className="group bg-slate-50 rounded-xl p-6 text-center hover:bg-slate-100 transition-all duration-300 hover:shadow-lg hover:-translate-y-1 animate-fade-in-up animate-delay-200">
+            <div className="group bg-gradient-to-br from-slate-50 to-slate-100 rounded-xl p-6 text-center hover:bg-gradient-to-br hover:from-slate-100 hover:to-slate-200 transition-all duration-300 hover:shadow-xl hover:shadow-slate-200/50 hover:-translate-y-2 animate-fade-in-up animate-delay-200 border border-slate-200/50 hover:border-slate-300/70">
               <div className="w-12 h-12 bg-gray-500 rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
                 <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
@@ -137,7 +137,7 @@ const HomePage: React.FC = () => {
             </div>
 
             {/* Service Card 4 */}
-            <div className="group bg-slate-50 rounded-xl p-6 text-center hover:bg-slate-100 transition-all duration-300 hover:shadow-lg hover:-translate-y-1 animate-fade-in-up animate-delay-300">
+            <div className="group bg-gradient-to-br from-slate-50 to-slate-100 rounded-xl p-6 text-center hover:bg-gradient-to-br hover:from-slate-100 hover:to-slate-200 transition-all duration-300 hover:shadow-xl hover:shadow-slate-200/50 hover:-translate-y-2 animate-fade-in-up animate-delay-300 border border-slate-200/50 hover:border-slate-300/70">
               <div className="w-12 h-12 bg-blue-400 rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
                 <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M9 19l3 3m0 0l3-3m-3 3V10" />
@@ -147,7 +147,7 @@ const HomePage: React.FC = () => {
             </div>
 
             {/* Service Card 5 */}
-            <div className="group bg-slate-50 rounded-xl p-6 text-center hover:bg-slate-100 transition-all duration-300 hover:shadow-lg hover:-translate-y-1 animate-fade-in-up animate-delay-400">
+            <div className="group bg-gradient-to-br from-slate-50 to-slate-100 rounded-xl p-6 text-center hover:bg-gradient-to-br hover:from-slate-100 hover:to-slate-200 transition-all duration-300 hover:shadow-xl hover:shadow-slate-200/50 hover:-translate-y-2 animate-fade-in-up animate-delay-400 border border-slate-200/50 hover:border-slate-300/70">
               <div className="w-12 h-12 bg-slate-600 rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
                 <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
@@ -196,42 +196,42 @@ const HomePage: React.FC = () => {
             <div className="text-center mb-8">
               <h3 className="text-2xl font-bold text-slate-900 mb-8 animate-fade-in-up">Our Team</h3>
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                <div className="bg-white rounded-xl p-6 shadow-sm hover:shadow-lg transition-all duration-300 hover:-translate-y-1 animate-fade-in-up">
+                <div className="bg-gradient-to-br from-white to-gray-50 rounded-xl p-6 shadow-sm hover:shadow-xl hover:shadow-gray-200/50 transition-all duration-300 hover:-translate-y-2 animate-fade-in-up border border-gray-200/50 hover:border-gray-300/70">
                   <div className="w-16 h-16 bg-blue-500 rounded-full mx-auto mb-4 flex items-center justify-center">
                     <span className="text-white font-bold text-xl">MR</span>
                   </div>
                   <h4 className="text-lg font-semibold text-slate-900 mb-2">May Rakgama</h4>
                   <p className="text-slate-600">Cape Town</p>
                 </div>
-                <div className="bg-white rounded-xl p-6 shadow-sm hover:shadow-lg transition-all duration-300 hover:-translate-y-1 animate-fade-in-up animate-delay-100">
+                <div className="bg-gradient-to-br from-white to-gray-50 rounded-xl p-6 shadow-sm hover:shadow-xl hover:shadow-gray-200/50 transition-all duration-300 hover:-translate-y-2 animate-fade-in-up animate-delay-100 border border-gray-200/50 hover:border-gray-300/70">
                   <div className="w-16 h-16 bg-slate-500 rounded-full mx-auto mb-4 flex items-center justify-center">
                     <span className="text-white font-bold text-xl">MO</span>
                   </div>
                   <h4 className="text-lg font-semibold text-slate-900 mb-2">Mentor Olifant</h4>
                   <p className="text-slate-600">North West</p>
                 </div>
-                <div className="bg-white rounded-xl p-6 shadow-sm hover:shadow-lg transition-all duration-300 hover:-translate-y-1 animate-fade-in-up animate-delay-200">
+                <div className="bg-gradient-to-br from-white to-gray-50 rounded-xl p-6 shadow-sm hover:shadow-xl hover:shadow-gray-200/50 transition-all duration-300 hover:-translate-y-2 animate-fade-in-up animate-delay-200 border border-gray-200/50 hover:border-gray-300/70">
                   <div className="w-16 h-16 bg-gray-500 rounded-full mx-auto mb-4 flex items-center justify-center">
                     <span className="text-white font-bold text-xl">BR</span>
                   </div>
                   <h4 className="text-lg font-semibold text-slate-900 mb-2">Bogosi Ramokoka</h4>
                   <p className="text-slate-600">Johannesburg</p>
                 </div>
-                <div className="bg-white rounded-xl p-6 shadow-sm hover:shadow-lg transition-all duration-300 hover:-translate-y-1 animate-fade-in-up animate-delay-300">
+                <div className="bg-gradient-to-br from-white to-gray-50 rounded-xl p-6 shadow-sm hover:shadow-xl hover:shadow-gray-200/50 transition-all duration-300 hover:-translate-y-2 animate-fade-in-up animate-delay-300 border border-gray-200/50 hover:border-gray-300/70">
                   <div className="w-16 h-16 bg-blue-400 rounded-full mx-auto mb-4 flex items-center justify-center">
                     <span className="text-white font-bold text-xl">MH</span>
                   </div>
                   <h4 className="text-lg font-semibold text-slate-900 mb-2">Mpho Hamesi</h4>
                   <p className="text-slate-600">Pretoria</p>
                 </div>
-                <div className="bg-white rounded-xl p-6 shadow-sm hover:shadow-lg transition-all duration-300 hover:-translate-y-1 animate-fade-in-up animate-delay-400">
+                <div className="bg-gradient-to-br from-white to-gray-50 rounded-xl p-6 shadow-sm hover:shadow-xl hover:shadow-gray-200/50 transition-all duration-300 hover:-translate-y-2 animate-fade-in-up animate-delay-400 border border-gray-200/50 hover:border-gray-300/70">
                   <div className="w-16 h-16 bg-slate-600 rounded-full mx-auto mb-4 flex items-center justify-center">
                     <span className="text-white font-bold text-xl">ON</span>
                   </div>
                   <h4 className="text-lg font-semibold text-slate-900 mb-2">Olwethu Ndlovu</h4>
                   <p className="text-slate-600">Mpumalanga</p>
                 </div>
-                <div className="bg-white rounded-xl p-6 shadow-sm hover:shadow-lg transition-all duration-300 hover:-translate-y-1 animate-fade-in-up animate-delay-500">
+                <div className="bg-gradient-to-br from-white to-gray-50 rounded-xl p-6 shadow-sm hover:shadow-xl hover:shadow-gray-200/50 transition-all duration-300 hover:-translate-y-2 animate-fade-in-up animate-delay-500 border border-gray-200/50 hover:border-gray-300/70">
                   <div className="w-16 h-16 bg-gray-600 rounded-full mx-auto mb-4 flex items-center justify-center">
                     <span className="text-white font-bold text-xl">LT</span>
                   </div>

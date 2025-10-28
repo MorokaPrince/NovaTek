@@ -5,9 +5,15 @@ const ServicesPage: React.FC = () => {
     <div className="bg-gray-50">
       {/* Hero Section */}
       <section className="relative bg-gray-900 py-16 overflow-hidden">
-        {/* Dark Coding Background */}
+        {/* Enhanced Dark Coding Background with Geometric Pattern */}
         <div className="absolute inset-0">
           <div className="absolute inset-0 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900"></div>
+          {/* Subtle Geometric Pattern */}
+          <div className="absolute inset-0 opacity-5"
+               style={{
+                 backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.1'%3E%3Ccircle cx='30' cy='30' r='2'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`
+               }}>
+          </div>
 
           {/* Scattered Coding Elements */}
           <div className="absolute top-20 left-20 text-blue-400/10 text-sm animate-float">{"function"} services() {"{"};</div>
@@ -48,10 +54,16 @@ const ServicesPage: React.FC = () => {
       </section>
 
       {/* Services Grid */}
-      <section className="relative py-16 overflow-hidden bg-gray-900">
-        {/* Dark Coding Background */}
+      <section className="relative py-16 overflow-hidden bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900">
+        {/* Enhanced Dark Coding Background with Layered Depth */}
         <div className="absolute inset-0">
           <div className="absolute inset-0 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900"></div>
+          {/* Subtle alternating pattern */}
+          <div className="absolute inset-0 opacity-20"
+               style={{
+                 backgroundImage: `url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23000000' fill-opacity='0.02'%3E%3Crect x='10' y='10' width='80' height='80' rx='8'/%3E%3C/g%3E%3C/svg%3E")`
+               }}>
+          </div>
 
           {/* Scattered Coding Text Elements */}
           <div className="absolute top-10 left-20 text-green-400/10 text-sm animate-float">{"const"} solution = {"{"};</div>
@@ -274,10 +286,16 @@ const ServicesPage: React.FC = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="bg-gray-900 text-white py-16 relative overflow-hidden">
-        {/* Animated Background */}
+      <section className="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-white py-16 relative overflow-hidden">
+        {/* Enhanced Animated Background with Layered Depth */}
         <div className="absolute inset-0">
           <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900"></div>
+          {/* Medium depth pattern */}
+          <div className="absolute inset-0 opacity-15"
+               style={{
+                 backgroundImage: `url("data:image/svg+xml,%3Csvg width='120' height='120' viewBox='0 0 120 120' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23000000' fill-opacity='0.03'%3E%3Cpath d='M60 60m-50 0a50 50 0 1 1 100 0a50 50 0 1 1 -100 0'/%3E%3C/g%3E%3C/svg%3E")`
+               }}>
+          </div>
           <div className="absolute top-20 right-20 w-32 h-32 bg-blue-500/10 rounded-full animate-float"></div>
           <div className="absolute bottom-20 left-20 w-24 h-24 bg-purple-500/10 rounded-full animate-pulse"></div>
         </div>
